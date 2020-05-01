@@ -26,6 +26,32 @@ fields:
         format: markdown
     label: Hero Subtitle
   label: Hero
+- name: intro_section
+  type: field_group
+  config: {}
+  fields:
+  - name: intro_heading
+    type: text
+    config:
+      required: false
+    label: Intro Heading
+  - name: introduction_body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Introduction Body
+  - name: intro_points
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Intro Points
+  label: Intro Section
 - name: info_icons
   type: field_group
   config: {}
