@@ -5,6 +5,11 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
+  path: data/icons.json
+  label: Developer Icon Access
+  match: "**/*"
+  read_only: true
+- type: document
   path: data/design.yaml
   label: Design
 - type: directory
@@ -12,6 +17,8 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Help
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
