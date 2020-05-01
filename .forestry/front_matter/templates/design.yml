@@ -215,6 +215,28 @@ fields:
           type: simple
       label: Information List
     label: Top Information Box
+  - name: bottom_info_box
+    type: field_group
+    config: {}
+    fields:
+    - name: bottom_message_header
+      type: text
+      config:
+        required: false
+      label: Message Header
+    - name: bottom_information_title
+      type: text
+      config:
+        required: false
+      label: Bottom Information Title
+    - name: bottom_information_list
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Information List
+    label: Bottom Information Box
   label: Information Box
 pages:
 - data/design.yaml
