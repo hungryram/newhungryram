@@ -59,7 +59,81 @@ fields:
   - name: icon_info_two
     type: field_group
     config: {}
+    fields:
+    - name: icon_two_select
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: documents
+          section: developer-icon-access
+          file: data/icons.json
+          path: 
+      label: Icon
+    - name: icon_two_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Text
     label: Icon Two
+  - name: icon_three
+    type: field_group
+    config: {}
+    fields:
+    - name: icon_three_select
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: documents
+          section: developer-icon-access
+          file: data/icons.json
+          path: 
+      label: Icon
+    - name: icon_three_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Text
+    label: Icon Three
+  - name: icon_four
+    type: field_group
+    config: {}
+    fields:
+    - name: icon_four_select
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: documents
+          section: developer-icon-access
+          file: data/icons.json
+          path: 
+      label: Icon
+    - name: icon_four_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Text
+    label: Icon Four
   label: Info Icons
 pages:
 - data/design.yaml
