@@ -21,6 +21,17 @@ info_icons:
     icon_five_text: test5
 information_box:
   top_info_box:
-    top_message_header: ''
-    top_information_title: ''
-    information_list: []
+    top_message_header: my message HEader
+    top_information_title: the below header
+    information_list:
+    - Federally Insured by the U.S. Government
+    - Leave your home to your Heirs, does not automatically go to the bank upon passing
+    - Maintain Title and Ownership of your home for the rest of your life
+    - Obtain a GROWING Line of Credit and use the funds as you need to
+    - Use Funds in a variety of ways to supplement your retirement and improve your
+      monthly cash flow
+    - No Prepayment Penalty
+    - 'Peace of Mind knowing your Surviving Spouse is protected '
+    - Receive Monthly Payments to supplement your retirement income
+    - Get TAX FREE CASH in One Lump Sum
+    - eliminate mortgage payments
