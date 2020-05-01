@@ -26,5 +26,9 @@ fields:
         format: markdown
     label: Hero Subtitle
   label: Hero
+- name: info_icons
+  type: field_group
+  config: {}
+  label: Info Icons
 pages:
 - data/design.yaml
