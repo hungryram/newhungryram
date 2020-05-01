@@ -2,13 +2,14 @@
 
   {{ partial "navbar.html" . }}
   
-    <div class="hero-body">
+    <div class="hero-body content">
       <div class="container has-text-centered">
-        <p class="title">
-          Title
-        </p>
+        <h1 class="title">
+          {{ .Site.Data.design.hero.hero_title }}
+        </h1>
         <p class="subtitle">
-          Subtitle
+          {{ .Site.Data.design.hero.hero_subtitle }}
+
         </p>
       </div>
     </div>
