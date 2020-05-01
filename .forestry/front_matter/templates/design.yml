@@ -161,5 +161,34 @@ fields:
       label: Text
     label: Icon Five
   label: Info Icons
+- name: information_box
+  type: field_group
+  config: {}
+  fields:
+  - name: top_info_box
+    type: field_group
+    config: {}
+    fields:
+    - name: top_message_header
+      type: text
+      config:
+        required: false
+      label: Message Header
+    - name: top_information_title
+      type: text
+      config:
+        required: false
+      label: Top Information Title
+    - name: information_list
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+        source:
+          type: simple
+      label: Information List
+    label: Top Information Box
+  label: Information Box
 pages:
 - data/design.yaml
