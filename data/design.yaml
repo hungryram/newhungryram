@@ -35,6 +35,17 @@ information_box:
     - Receive Monthly Payments to supplement your retirement income
     - Get TAX FREE CASH in One Lump Sum
     - eliminate mortgage payments
+  bottom_info_box:
+    bottom_message_header: My Bottom Header
+    bottom_information_title: Info Box
+    bottom_information_list:
+    - Flex Program allows one Large Lump Sum and Monthly Payments
+    - No Mortgage Payments, Maintain Ownership and Spouse protection- just like the
+      HECM!
+    - NO FHA VALUE Limit
+    - Multiple Product Tiers and Rates, choose what works best for you!
+    - Enjoy a Fixed Interest Rate for Life
+    - NO MORTGAGE INSURANCE!
 intro_section:
   intro_heading: CONVERT YOUR HOME EQUITY INTO TAX-FREE CASH WITH A REVERSE MORTGAGE
     LOAN TESTING
