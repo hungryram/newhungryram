@@ -26,3 +26,5 @@ fields:
         format: markdown
     label: Hero Subtitle
   label: Hero
+pages:
+- data/design.yaml
