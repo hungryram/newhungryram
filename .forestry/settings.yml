@@ -17,7 +17,6 @@ sections:
 - type: document
   path: data/icons.json
   label: Developer Icon Access
-  match: "**/*"
   read_only: true
 upload_dir: static/uploads
 public_path: "/uploads"

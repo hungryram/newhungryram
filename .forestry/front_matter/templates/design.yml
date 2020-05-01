@@ -29,6 +29,37 @@ fields:
 - name: info_icons
   type: field_group
   config: {}
+  fields:
+  - name: icon_info_one
+    type: field_group
+    config: {}
+    fields:
+    - name: icon_one_select
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Icon
+    - name: icon_one_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Text
+    label: Icon One
+  - name: icon_info_two
+    type: field_group
+    config: {}
+    label: Icon Two
   label: Info Icons
 pages:
 - data/design.yaml
