@@ -1,24 +1,17 @@
 <div class="section">
     <div class="container">
-        <div class="columns">
-            <div class="column has-text-centered">
+        <div class="columns has-text-centered">
+            <div class="column">
                 <article class="message">
                     <div class="message-header">
-                        <h2>TRADITIONAL REVERSE MORTGAGE ~ HECM ~ HOME EQUITY CONVERSION MORTGAGE</h2>
+                        <h2 class="title is-4">{{ .Site.Data.design.information_box.top_info_box.top_message_header }}</h2>
                     </div>
                     <div class="message-body">
-                        <h2 class="title is-4">FHA MAXIMUM CLAIM AMOUNT UP TO $726,525</h2>
+                        <h2 class="title is-4">{{ .Site.Data.design.information_box.top_info_box.top_information_title }}</h2>
                         <ul class="info-list">
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
+                            {{ range .Site.Data.design.information_box.top_info_box.information_list }}
+                                <li><i class="fas fa-check-circle"></i> {{ . }}</li>
+                            {{ end}}
                         </ul>
                     </div>
                 </article>
@@ -33,7 +26,7 @@
             <div class="column has-text-centered">
                 <article class="message">
                     <div class="message-header">
-                        <h2>TRADITIONAL REVERSE MORTGAGE ~ HECM ~ HOME EQUITY CONVERSION MORTGAGE</h2>
+                        <h2 class="title is-4">TRADITIONAL REVERSE MORTGAGE ~ HECM ~ HOME EQUITY CONVERSION MORTGAGE</h2>
                     </div>
                     <div class="message-body">
                         <h2 class="title is-4">FHA MAXIMUM CLAIM AMOUNT UP TO $726,525</h2>
@@ -61,7 +54,7 @@
     </div>
 </div>
 
-<div class="hero has-text-centered is-info">
+<div class="has-text-centered">
     <div class="container">
         <h2>Setting the Standard in Quality Reverse Mortgage Service.</h2>
         <p>Call today to find out if a Reverse mortgage is right for you</p>

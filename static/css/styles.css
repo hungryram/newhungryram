@@ -1,6 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif!important;
+}
+
+p,
+a,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
 .info-list {
     columns: 2;
     -webkit-columns:2;
     -o-columns: 2;
     -moz-columns: 2;
+}
+
+.info-list li {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.message-header h2 {
+    color: #fff;
+}
+
+/* ICON CTA */
+
+#icon-cta i {
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+#icon-cta p {
+    font-size: 1.2rem;
+}
+
+#icon-cta {
+    background: #fafafa;
 }
