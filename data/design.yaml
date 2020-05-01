@@ -11,14 +11,14 @@ info_icons:
     icon_two_select: chevron-circle-left
     icon_two_text: test2
   icon_three:
-    icon_three_select: ''
-    icon_three_text: ''
+    icon_three_select: bullhorn
+    icon_three_text: test3
   icon_four:
-    icon_four_select: ''
-    icon_four_text: ''
+    icon_four_select: venus-mars
+    icon_four_text: test4
   icon_five:
-    icon_five_select: ''
-    icon_five_text: ''
+    icon_five_select: share-alt-square
+    icon_five_text: test5
 information_box:
   top_info_box:
     top_message_header: ''
