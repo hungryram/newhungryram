@@ -3,3 +3,24 @@ hero:
   hero_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
   hero_title: Hero Title
   hero_subtitle: Hero Subtitle
+info_icons:
+  icon_info_one:
+    icon_one_select: arrow-circle-o-down
+    icon_one_text: test
+  icon_info_two:
+    icon_two_select: ''
+    icon_two_text: ''
+  icon_three:
+    icon_three_select: ''
+    icon_three_text: ''
+  icon_four:
+    icon_four_select: ''
+    icon_four_text: ''
+  icon_five:
+    icon_five_select: ''
+    icon_five_text: ''
+information_box:
+  top_info_box:
+    top_message_header: ''
+    top_information_title: ''
+    information_list: []
