@@ -22,25 +22,18 @@
 
 <div class="section">
     <div class="container">
-        <div class="columns">
-            <div class="column has-text-centered">
+        <div class="columns has-text-centered">
+            <div class="column">
                 <article class="message">
                     <div class="message-header">
-                        <h2 class="title is-4">TRADITIONAL REVERSE MORTGAGE ~ HECM ~ HOME EQUITY CONVERSION MORTGAGE</h2>
+                        <h2 class="title is-4">{{ .Site.Data.design.information_box.bottom_info_box.bottom_message_header }}</h2>
                     </div>
                     <div class="message-body">
-                        <h2 class="title is-4">FHA MAXIMUM CLAIM AMOUNT UP TO $726,525</h2>
+                        <h2 class="title is-4">{{ .Site.Data.design.information_box.bottom_info_box.bottom_information_title }}</h2>
                         <ul class="info-list">
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
-                            <li>Eliminate Mortgage Payments for the rest of your life</li>
+                            {{ range .Site.Data.design.information_box.bottom_info_box.bottom_information_list }}
+                                <li><i class="fas fa-check-circle"></i> {{ . }}</li>
+                            {{ end}}
                         </ul>
                     </div>
                 </article>
