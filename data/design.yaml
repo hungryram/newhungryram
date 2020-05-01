@@ -8,8 +8,8 @@ info_icons:
     icon_one_select: arrow-circle-o-down
     icon_one_text: test
   icon_info_two:
-    icon_two_select: ''
-    icon_two_text: ''
+    icon_two_select: chevron-circle-left
+    icon_two_text: test2
   icon_three:
     icon_three_select: ''
     icon_three_text: ''
