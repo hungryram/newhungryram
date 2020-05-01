@@ -134,6 +134,32 @@ fields:
           format: markdown
       label: Text
     label: Icon Four
+  - name: icon_five
+    type: field_group
+    config: {}
+    fields:
+    - name: icon_five_select
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: documents
+          section: developer-icon-access
+          file: data/icons.json
+          path: 
+      label: Icon
+    - name: icon_five_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Text
+    label: Icon Five
   label: Info Icons
 pages:
 - data/design.yaml
