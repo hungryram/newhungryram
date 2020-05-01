@@ -1,12 +1,14 @@
-<div class="section">
+<div class="section" id="intro-section">
     <div class="container">
         <div class="columns">
             <div class="column is-8">
-                <h1 class="title is-2">Convert Your Home Equity into tax-free cash with a reverse mortgage loan</h1>
+                <h1 class="title is-2">{{ .Site.Data.design.intro_section.intro_heading }}</h1>
+                <p>{{ .Site.Data.design.intro_section.introduction_body }}</p>
+                <br>
                 <ul>
-                    <li>CALL OR INQUIRE NOW TO DISCOVER THE TRUTH!</li>
-                    <li>CALL OR INQUIRE NOW TO DISCOVER THE TRUTH!</li>
-                    <li>CALL OR INQUIRE NOW TO DISCOVER THE TRUTH!</li>
+                    {{ range .Site.Data.design.intro_section.intro_points }}
+                        <li><i class="fas fa-check-circle"></i>{{ . }}</li>
+                    {{ end }}
                 </ul>
             </div>
 

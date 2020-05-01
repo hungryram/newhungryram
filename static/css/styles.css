@@ -13,11 +13,23 @@ li {
     font-family: 'Roboto', sans-serif;
 }
 
-.info-list {
+@media screen and (max-width: 768px) {
+    .info-list {
+        columns: 1!important;
+        -webkit-columns:1!important;
+        -o-columns: 1!important;
+        -moz-columns: 1!important;
+    }
+}
+
+ul.info-list {
     columns: 2;
     -webkit-columns:2;
     -o-columns: 2;
     -moz-columns: 2;
+    list-style-position: outside!important;
+    -webkit-list-style-position: outside!important;
+    -o-list-style-position: outside!important;
 }
 
 .info-list li {
@@ -26,8 +38,22 @@ li {
     font-size: 18px;
 }
 
+div.message-header {
+    padding: 25px;
+    background: #bea233;
+}
+
 .message-header h2 {
     color: #fff;
+}
+
+.message-body h2 {
+    padding: 25px;
+}
+
+.message-body i {
+    color: #bea233;
+    margin-right: 8px;
 }
 
 /* ICON CTA */
@@ -35,6 +61,7 @@ li {
 #icon-cta i {
     font-size: 3rem;
     padding-bottom: 20px;
+    color: #bea233;
 }
 
 #icon-cta p {
@@ -43,4 +70,15 @@ li {
 
 #icon-cta {
     background: #fafafa;
+}
+
+/* INTRO SECTION */
+
+#intro-section p {
+    font-size: 1.1rem;
+}
+
+#intro-section i {
+    color: #bea233;
+    margin-right: 8px;
 }
