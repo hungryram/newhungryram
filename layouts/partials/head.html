@@ -1,0 +1,43 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{.Site.BaseURL}}css/styles.css">
+    <link rel="stylesheet" href="{{.Site.BaseURL}}css/bulma.min.css">
+    <link rel="stylesheet" href="{{.Site.BaseURL}}css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200&display=swap" rel="stylesheet">
+
+
+
+
+    {{ with .Params.seo.title_tag }}
+    <title>{{ . }}</title>
+    {{ end }}
+
+    {{ with .Params.seo.meta_description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+
+    <style>
+        .hero__container {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url("{{ .Site.Data.design.main_image.home_background_image }}") no-repeat center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+    <script src="https://kit.fontawesome.com/2dac2bfc0f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/slick-theme.css"/>
+</head>
+<body>
