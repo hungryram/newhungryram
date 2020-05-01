@@ -1,0 +1,28 @@
+---
+label: Design
+hide_body: true
+fields:
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: hero_image
+    type: file
+    config:
+      maxSize: 64
+    label: Hero Image
+  - name: hero_title
+    type: text
+    config:
+      required: false
+    label: Hero Title
+  - name: hero_subtitle
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Hero Subtitle
+  label: Hero
