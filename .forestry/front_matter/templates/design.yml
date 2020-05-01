@@ -41,9 +41,9 @@ fields:
         required: false
         options: []
         source:
-          type: pages
+          type: documents
           section: developer-icon-access
-          file: 
+          file: data/icons.json
           path: 
       label: Icon
     - name: icon_one_text
