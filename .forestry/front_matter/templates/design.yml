@@ -41,8 +41,8 @@ fields:
         required: false
         options: []
         source:
-          type: simple
-          section: 
+          type: pages
+          section: developer-icon-access
           file: 
           path: 
       label: Icon
