@@ -2,6 +2,26 @@
 label: Design
 hide_body: true
 fields:
+- name: logo
+  type: field_group
+  config: {}
+  fields:
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  - name: logo_alt_tag
+    type: text
+    config:
+      required: false
+    label: Logo Alt Tag
+  - name: company_name
+    type: text
+    config:
+      required: false
+    label: Company Name
+  label: Logo
 - name: hero
   type: field_group
   config: {}

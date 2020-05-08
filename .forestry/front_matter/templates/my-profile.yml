@@ -1,0 +1,93 @@
+---
+label: My Profile
+hide_body: true
+fields:
+- name: primary_photo
+  type: file
+  config:
+    maxSize: 64
+  label: Your Photo
+  description: Optional
+- name: primary_account
+  type: field_group
+  config: {}
+  fields:
+  - name: first_and_last_name
+    type: text
+    config:
+      required: false
+    label: First and Last Name
+  - name: primary_phone_number
+    type: text
+    config:
+      required: false
+    label: Phone Number
+  - name: primary_email
+    type: text
+    config:
+      required: false
+    label: Email
+  - name: primary_company_name
+    type: text
+    config:
+      required: false
+    label: Company Name
+  label: Primary Account
+- name: address
+  type: field_group
+  config: {}
+  fields:
+  - name: street_address
+    type: text
+    config:
+      required: false
+    label: Street Address
+  - name: primary_city
+    type: text
+    config:
+      required: false
+    label: City
+  - name: primary_state
+    type: text
+    config:
+      required: false
+    label: State
+  - name: primary_zip_code
+    type: text
+    config:
+      required: false
+    label: Zip Code
+  - name: primary_country
+    type: text
+    config:
+      required: false
+    label: Country
+  - name: disable_address
+    type: boolean
+    label: Disable Address
+  label: Address
+- name: add_social_links
+  type: field_group
+  config: {}
+  fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  label: Add Social Links
