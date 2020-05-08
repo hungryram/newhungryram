@@ -7,12 +7,15 @@ h6 {
     font-family: 'Josefin Sans', sans-serif!important;
 }
 
+main {
+    padding: 40px 30px;
+}
+
 p,
 a,
 li {
     font-family: 'Quicksand', sans-serif;
-    color: #77797d;
-}
+ }
 
 /* HERO */
 
