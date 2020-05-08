@@ -2,15 +2,15 @@
 primary_photo: ''
 primary_account:
   first_and_last_name: ''
-  primary_phone_number: ''
+  primary_phone_number: "(213) 380-5626"
   primary_email: ''
   primary_company_name: ''
 address:
-  street_address: ''
-  primary_city: ''
-  primary_state: ''
-  primary_zip_code: ''
-  primary_country: ''
+  street_address: 3660 Wilshire Blvd, Suite 518
+  primary_city: Los Angeles
+  primary_state: CA
+  primary_zip_code: "90010"
+  primary_country: United States
   disable_address: false
 add_social_links:
   instagram: ''
