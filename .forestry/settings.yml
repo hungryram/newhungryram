@@ -4,13 +4,21 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: My Website
+- type: document
+  path: data/profile.yaml
+  label: My Profile
+  match: "**/*"
 - type: document
   path: data/design.yaml
   label: Design
+- type: heading
+  label: Pages
 - type: directory
   path: content
-  label: Pages
-  create: all
+  label: Add/View Pages
+  create: documents
   match: "*"
 - type: heading
   label: Help
