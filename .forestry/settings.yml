@@ -26,6 +26,8 @@ sections:
   label: Add/View Blogs
   create: documents
   match: "**/*"
+  templates:
+  - blogs
 - type: heading
   label: Help
 - type: document
