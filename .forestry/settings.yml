@@ -21,9 +21,10 @@ sections:
   match: "*"
 - type: heading
   label: Blog
-- type: document
+- type: directory
   path: content/blog
   label: Add/View Blogs
+  create: documents
   match: "**/*"
 - type: heading
   label: Help
