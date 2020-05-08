@@ -10,7 +10,8 @@ h6 {
 p,
 a,
 li {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #77797d;
 }
 
 /* HERO */
@@ -85,16 +86,13 @@ div.hero-body p {
 }
 
 a.navbar-item img {
-    max-height: 7rem;
+    max-height: 3rem;
 }
 
 div.navbar-brand {
     align-items: center;
 }
 
-a.navbar-item {
-    padding: 0;
-}
 
 
 
@@ -135,7 +133,7 @@ ul.info-list {
 
 div.message-header {
     padding: 25px;
-    background: #bea233;
+    background: #444C5C;
 }
 
 .message-header h2 {
@@ -154,9 +152,9 @@ div.message-header {
 /* ICON CTA */
 
 #icon-cta i {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-bottom: 20px;
-    color: #bea233;
+    color: #444C5C;
 }
 
 #icon-cta p {
@@ -176,4 +174,11 @@ div.message-header {
 #intro-section i {
     color: #bea233;
     margin-right: 8px;
+}
+
+/* FOOTER */
+
+footer.footer {
+    background: #444C5C;
+    color: #fff;
 }

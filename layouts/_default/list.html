@@ -1,8 +1,18 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
-<main>
-{{ block "main" . }}
+<div class="section">
+    <div class="container">
+        {{ range .Pages }}
+        <div class="columns">
+            <div class="column">
+                <div class="box">
+                    <h2 class="title is-4">{{ .Title }}</h2>
+                    <a href="{{ .Permalink }}">Read More</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
 
 {{ end }}
-</main>
-{{ partial "footer.html" . }}

@@ -2,8 +2,10 @@
     <div class="container">
         <div class="columns">
             <div class="column is-8">
+              <div class="content">
                 <h1 class="title is-2">{{ .Site.Data.design.intro_section.intro_heading }}</h1>
                 <p>{{ .Site.Data.design.intro_section.introduction_body }}</p>
+              </div>
                 <br>
                 <ul>
                     {{ range .Site.Data.design.intro_section.intro_points }}
