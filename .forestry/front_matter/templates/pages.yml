@@ -13,4 +13,5 @@ fields:
   template: seo
   label: Search Engine Optimization
 pages:
+- content/about.md
 - content/regular page.md
