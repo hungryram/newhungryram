@@ -1,0 +1,19 @@
+---
+primary_photo: ''
+primary_account:
+  first_and_last_name: ''
+  primary_phone_number: ''
+  primary_email: ''
+  primary_company_name: ''
+address:
+  street_address: ''
+  primary_city: ''
+  primary_state: ''
+  primary_zip_code: ''
+  primary_country: ''
+  disable_address: false
+add_social_links:
+  instagram: ''
+  linkedin: ''
+  facebook: ''
+  twitter: ''
