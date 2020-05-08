@@ -21,16 +21,86 @@ div.hero-body p {
     line-height: 2;
 }
 
-/* NAV */
 
-.head-nav li {
-    display: inline-block;
-    padding: 0 10px;
+/* START DROPDOWN */
+
+@media screen and (max-width: 1087px){
+
+
+
+    .navbar-menu.is-active {
+        display: block;
+        transition: all .2s ease;
+        position: absolute;
+        right: 0;
+        top: -20px;
+        height: 100vh;
+    }
+
+    .navbar-burger {
+        z-index: 1000;
+        transition: all .2s ease;
+    }
+    
+    .navbar-menu {
+        display: block!important;
+        position: absolute;
+        right: -300px;
+        transition: all .2s ease;
+        padding: 40px;
+        height: 100vh;
+        top: -20px;
+
+    }
+
+
+
+    div#navbarMenuHeroC ul {
+        padding-top: 50px;
+    }
+
+    div#navbarMenuHeroC {
+        padding: 40px;
+    }
+
+    ul.head-nav li {
+        padding: 10px;
+    }
+
+    ul.head-nav li a {
+        color: #000;
+    }
 }
 
-.head-nav li a {
-    color: #fff;
+
+@media screen and (min-width:1088px) {
+    .head-nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    
+    .head-nav li a {
+        color: #fff;
+    }
 }
+
+a.navbar-item img {
+    max-height: 7rem;
+}
+
+div.navbar-brand {
+    align-items: center;
+}
+
+a.navbar-item {
+    padding: 0;
+}
+
+
+
+/* END DROP DOWN */
+
+
 
 .navbar>.container {
     align-items: center!important;
