@@ -20,6 +20,12 @@ sections:
   create: documents
   match: "*"
 - type: heading
+  label: Blog
+- type: document
+  path: content/blog
+  label: Add/View Blogs
+  match: "**/*"
+- type: heading
   label: Help
 - type: document
   path: data/icons.json
