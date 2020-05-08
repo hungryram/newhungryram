@@ -26,3 +26,5 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+pages:
+- content/blog/test-title.md
