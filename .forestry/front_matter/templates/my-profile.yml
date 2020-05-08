@@ -22,6 +22,11 @@ fields:
     config:
       required: false
     label: Phone Number
+  - name: fax
+    type: text
+    config:
+      required: false
+    label: Fax
   - name: primary_email
     type: text
     config:
