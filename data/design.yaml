@@ -17,7 +17,7 @@ info_icons:
     icon_four_select: hand-o-left
     icon_four_text: PAY FOR CAREGIVING & EXPENSES
   icon_five:
-    icon_five_select: share-alt-square
+    icon_five_select: home
     icon_five_text: RENOVATE OR MAKE IMPROVEMENTS
 information_box:
   top_info_box:
