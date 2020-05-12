@@ -5,17 +5,17 @@ hero:
   hero_subtitle: FOR HOMEOWNERS 62 AND OLDER
 info_icons:
   icon_info_one:
-    icon_one_select: arrow-circle-o-down
-    icon_one_text: test
+    icon_one_select: money
+    icon_one_text: ELIMINATE MORTGAGE PAYMENTS
   icon_info_two:
-    icon_two_select: chevron-circle-left
-    icon_two_text: test2
+    icon_two_select: dollar
+    icon_two_text: ONE CASH LUMP SUM OR LINE OF CREDIT
   icon_three:
-    icon_three_select: bullhorn
-    icon_three_text: test3
+    icon_three_select: credit-card
+    icon_three_text: PAY OFF CREDIT CARDS & MEDICAL BILLS
   icon_four:
-    icon_four_select: venus-mars
-    icon_four_text: test4
+    icon_four_select: hand-o-left
+    icon_four_text: PAY FOR CAREGIVING & EXPENSES
   icon_five:
     icon_five_select: share-alt-square
     icon_five_text: test5
