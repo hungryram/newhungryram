@@ -2,11 +2,11 @@
 label: Pages
 hide_body: false
 fields:
-- name: page_title
+- name: title
   type: text
   config:
     required: false
-  label: Page Title
+  label: Title
 - name: search_engine_optimization
   type: include
   config: {}
@@ -14,4 +14,3 @@ fields:
   label: Search Engine Optimization
 pages:
 - content/about.md
-- content/regular page.md
