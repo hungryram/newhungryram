@@ -2,6 +2,7 @@
 meta_description = "about meta"
 meta_title = "about"
 page_title = "The About Page"
+title = "About"
 
 +++
 AMERICAN APPLE MORTGAGE has been a popular wholesale mortgage company for 27 years. Next to your accountant, our goal is to be (from a business perspective) your best friend. Home Ownership is the center piece of family life. It’s where we meet and greet and have the best of our life as we live it. And American Apple Mortgage is proud to be a part of this experience. That’s why we take what we do seriously.
