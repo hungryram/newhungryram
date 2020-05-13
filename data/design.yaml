@@ -5,7 +5,7 @@ hero:
   hero_subtitle: FOR HOMEOWNERS 62 AND OLDER
 info_icons:
   icon_info_one:
-    icon_one_select: fab fa-quora
+    icon_one_select: fas fa-money-bill-alt
     icon_one_text: ELIMINATE MORTGAGE PAYMENTS
   icon_info_two:
     icon_two_select: dollar
