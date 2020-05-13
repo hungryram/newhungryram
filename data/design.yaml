@@ -5,24 +5,25 @@ hero:
   hero_subtitle: FOR HOMEOWNERS 62 AND OLDER
 info_icons:
   icon_info_one:
-    icon_one_select: arrow-circle-o-down
-    icon_one_text: test
+    icon_one_select: times
+    icon_one_text: ELIMINATE MORTGAGE PAYMENTS
   icon_info_two:
-    icon_two_select: chevron-circle-left
-    icon_two_text: test2
+    icon_two_select: dollar
+    icon_two_text: ONE CASH LUMP SUM OR LINE OF CREDIT
   icon_three:
-    icon_three_select: bullhorn
-    icon_three_text: test3
+    icon_three_select: credit-card
+    icon_three_text: PAY OFF CREDIT CARDS & MEDICAL BILLS
   icon_four:
-    icon_four_select: venus-mars
-    icon_four_text: test4
+    icon_four_select: hand-o-left
+    icon_four_text: PAY FOR CAREGIVING & EXPENSES
   icon_five:
-    icon_five_select: share-alt-square
-    icon_five_text: test5
+    icon_five_select: home
+    icon_five_text: RENOVATE OR MAKE IMPROVEMENTS
 information_box:
   top_info_box:
-    top_message_header: my message HEader
-    top_information_title: the below header
+    top_message_header: TRADITIONAL REVERSE MORTGAGE ~ HECM ~ HOME EQUITY CONVERSION
+      MORTGAGE
+    top_information_title: FHA MAXIMUM CLAIM AMOUNT UP TO $726,525
     information_list:
     - Federally Insured by the U.S. Government
     - Leave your home to your Heirs, does not automatically go to the bank upon passing
@@ -36,8 +37,8 @@ information_box:
     - Get TAX FREE CASH in One Lump Sum
     - eliminate mortgage payments
   bottom_info_box:
-    bottom_message_header: My Bottom Header
-    bottom_information_title: Info Box
+    bottom_message_header: JUMBO REVERSE MORTGAGE
+    bottom_information_title: LOAN AMOUNTS UP TO $4,000,000
     bottom_information_list:
     - Flex Program allows one Large Lump Sum and Monthly Payments
     - No Mortgage Payments, Maintain Ownership and Spouse protection- just like the
@@ -49,15 +50,12 @@ information_box:
 intro_section:
   intro_heading: CONVERT YOUR HOME EQUITY INTO TAX-FREE CASH WITH A REVERSE MORTGAGE
     LOAN TESTING
-  introduction_body: "  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    Natus autem unde deserunt tempora perferendis blanditiis corporis, sed tempore
-    ut eligendi eveniet. Corrupti, itaque excepturi perferendis nostrum sit ex odit
-    autem!\n"
+  introduction_body: Welcome to American Apple Mortgage, We are home loan experts
+    dedicated to making sure your home purchase or refinance experience is top-notch.
   intro_points:
-  - yup
-  - jigs
-  - what not
-  - new ideas
+  - MEET WITH A LICENSED SPECIALIST IN YOUR HOME!
+  - RECEIVE A FREE PROPOSAL WITH NO OBLIGATIONS!
+  - CALL OR INQUIRE NOW TO DISCOVER THE TRUTH!
 logo:
   logo: "/uploads/American Apple Mortgage Logopng.png"
   logo_alt_tag: American Apple Mortgage
