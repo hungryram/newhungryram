@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Page Title
+  label: Title
 - name: search_engine_optimization
   type: include
   config: {}
