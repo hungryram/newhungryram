@@ -2,7 +2,7 @@
 label: Pages
 hide_body: false
 fields:
-- name: page_title
+- name: title
   type: text
   config:
     required: false
