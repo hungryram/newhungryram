@@ -185,3 +185,12 @@ footer.footer {
     background: #444C5C;
     color: #fff;
 }
+
+div.bottom-footer {
+    background-color:#313b4f;
+    padding: 10px 0;
+}
+
+.bottom-footer a {
+    color: #fff;
+}
