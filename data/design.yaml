@@ -8,7 +8,7 @@ info_icons:
     icon_one_select: fas fa-money-bill-alt
     icon_one_text: ELIMINATE MORTGAGE PAYMENTS
   icon_info_two:
-    icon_two_select: dollar
+    icon_two_select: fas fa-dollar-sign
     icon_two_text: ONE CASH LUMP SUM OR LINE OF CREDIT
   icon_three:
     icon_three_select: credit-card
