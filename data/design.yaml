@@ -11,13 +11,13 @@ info_icons:
     icon_two_select: fas fa-dollar-sign
     icon_two_text: ONE CASH LUMP SUM OR LINE OF CREDIT
   icon_three:
-    icon_three_select: credit-card
+    icon_three_select: fas fa-credit-card
     icon_three_text: PAY OFF CREDIT CARDS & MEDICAL BILLS
   icon_four:
-    icon_four_select: hand-o-left
+    icon_four_select: fas fa-handshake
     icon_four_text: PAY FOR CAREGIVING & EXPENSES
   icon_five:
-    icon_five_select: home
+    icon_five_select: fas fa-home
     icon_five_text: RENOVATE OR MAKE IMPROVEMENTS
 information_box:
   top_info_box:
