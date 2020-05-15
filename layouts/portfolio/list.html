@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h2 class="is-title is-4">{{ .Title }}</h2>
+            </div>
+        </div>
+        <div class="columns">
+            {{ range .Pages }}
+            <div class="column">
+                {{ .Title }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
