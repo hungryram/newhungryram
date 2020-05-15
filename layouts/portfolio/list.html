@@ -7,10 +7,12 @@
                 <h2 class="is-title is-4">{{ .Title }}</h2>
             </div>
         </div>
-        <div class="columns">
+        <div class="columns is-multiline">
             {{ range .Pages }}
-            <div class="column">
-                {{ .Title }}
+            <div class="column is-4">
+                <div class="portfolio-card box">
+                    {{ .Title }}
+                </div>
             </div>
             {{ end }}
         </div>
@@ -18,3 +20,4 @@
 </div>
 
 {{ end }}
+
