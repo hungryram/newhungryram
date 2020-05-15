@@ -39,3 +39,5 @@ fields:
     schema:
       format: markdown
   label: Approach
+pages:
+- portfolio/yoori-park-luxury-estates.md
