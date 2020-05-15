@@ -3,17 +3,19 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        Logo
+        <img src="{{ .Site.Data.design.logo.logo }}" alt="{{ .Site.Data.design.logo.logo_alt_tag }}" width="200">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas libero mollitia fugit vitae ab, odit sed at delectus tenetur? Illum tempora laboriosam ullam, dicta molestias ab magni est aspernatur? Provident.</p>
       </div>
       <div class="column">
         <h4 class="is-title is-4">Connect</h4>
+        {{ $location := .Site.Data.profile.address }}
+        {{ $contact := .Site.Data.profile.primary_account }}
         <ul>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
+          {{ if $location }}<li><i class="fas fa-map-marker-alt"></i> {{ $location.street_address }} {{ $location.primary_city }} {{ $location.primary_state }} {{ $location.primary_zip_code }}</li> {{ end }}
+          {{ if $contact }}<li><i class="far fa-envelope"></i> {{ $contact.primary_email }}</li> {{ end }}
+          {{ if $contact }}<li><i class="fas fa-mobile-alt"></i> {{ $contact.primary_phone_number }}</li> {{ end }}
         </ul>
+
       </div>
       <div class="column">
         <h4 class="is-title is-4">Resources</h4>
@@ -26,12 +28,22 @@
       </div>
       <div class="column">
         <h4 class="is-title is-4">Recent Posts</h4>
-        <ul>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
-          <li>test</li>
-        </ul>
+        {{ range  first 2 ( where $.Site.RegularPages "Type" "blog") }}
+        <article class="media">
+            {{ if .Params.featured_image }}
+            <div class="media-left">
+              <figure class="image is-96x96">
+                <img src="{{ .Params.featured_image }}" alt="Image">
+              </figure>
+            </div>
+            {{end}}
+            <div class="media-content">
+              <div class="content">
+                  <h1 class="title is-6" style="margin: 0; color: #fff">{{ .Params.title }}</h1>
+                  <a href="{{ .Permalink }}" style="color: #ccc">Continue Reading</a>
+            </div>
+        </article>
+        {{end}}
       </div>
     </div>
     <hr>
