@@ -39,8 +39,17 @@ fields:
     schema:
       format: markdown
   label: Approach
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
 pages:
-- portfolio/anita-the-realtor.md
-- portfolio/lifestyle-realtor.md
-- portfolio/wallstreet-realty.md
-- portfolio/yoori-park-luxury-estates.md
+- content/portfolio/anita-the-realtor.md
+- content/portfolio/lifestyle-realtor.md
+- content/portfolio/wallstreet-realty.md
+- content/portfolio/yoori-park-luxury-estates.md
