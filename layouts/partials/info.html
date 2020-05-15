@@ -1,42 +1,28 @@
-<div class="section">
+<div class="parallax__section" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80) no-repeat center;background-size: cover;height: 50vh; display: flex;align-items:center">
     <div class="container">
-        <div class="columns has-text-centered">
+        <div class="columns is-vcentered">
             <div class="column">
-                <article class="message">
-                    <div class="message-header">
-                        <h2 class="title is-4">{{ .Site.Data.design.information_box.top_info_box.top_message_header }}</h2>
-                    </div>
-                    <div class="message-body">
-                        <h2 class="title is-4">{{ .Site.Data.design.information_box.top_info_box.top_information_title }}</h2>
-                        <ul class="info-list">
-                            {{ range .Site.Data.design.information_box.top_info_box.information_list }}
-                                <li><i class="fas fa-check-circle"></i> {{ . }}</li>
-                            {{ end}}
-                        </ul>
-                    </div>
-                </article>
+                <h2 class="is-title is-4">Build better business software a lot quicker with LeadEngine</h2>
+                <p>Cras mattis iudicium purus sit amet fermentum at nos hinc posthac, sitientis piros afros</p>
+                <a href="" class="button">Learn more</a>
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="container">
-        <div class="columns has-text-centered">
-            <div class="column">
-                <article class="message">
-                    <div class="message-header">
-                        <h2 class="title is-4">{{ .Site.Data.design.information_box.bottom_info_box.bottom_message_header }}</h2>
+            <div class="column has-text-centered">
+                <div class="columns">
+                    <div class="column parallax-box">
+                        Investments
                     </div>
-                    <div class="message-body">
-                        <h2 class="title is-4">{{ .Site.Data.design.information_box.bottom_info_box.bottom_information_title }}</h2>
-                        <ul class="info-list">
-                            {{ range .Site.Data.design.information_box.bottom_info_box.bottom_information_list }}
-                                <li><i class="fas fa-check-circle"></i> {{ . }}</li>
-                            {{ end}}
-                        </ul>
+                    <div class="column parallax-box">
+                        Offices
                     </div>
-                </article>
+                </div>
+                <div class="columns">
+                    <div class="column parallax-box">
+                        Investments
+                    </div>
+                    <div class="column parallax-box">
+                        Offices
+                    </div>
+                </div>
             </div>
         </div>
     </div>

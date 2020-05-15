@@ -1,4 +1,4 @@
-<section class="hero is-large" style="background:url({{ .Site.Data.design.hero.hero_image }}) no-repeat center;background-size:cover;">
+<section class="hero is-fullheight" style="background:url({{ .Site.Data.design.hero.hero_image }}) no-repeat center;background-size:cover;">
 
   {{ partial "navbar.html" . }}
   
@@ -14,6 +14,20 @@
       </div>
     </div>
 
+    
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a>Cutting edge solutions</a></li>
+          <li><a>Technology trends</a></li>
+          <li><a>Industry experts</a></li>
+          <li><a>Get more for less</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   </section>
 
   

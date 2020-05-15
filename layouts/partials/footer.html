@@ -1,25 +1,59 @@
-<div class="section" style="background: #f8f1d5">
-  <div class="has-text-centered">
-      <div class="container">
-          <h2 class="title is-4">Setting the Standard in Quality Reverse Mortgage Service.</h2>
-          <p>Call today to find out if a Reverse mortgage is right for you</p>
-      </div>
-  </div>
-  </div>
 <footer class="footer">
-    <div class="content has-text-centered" style="color: #fff;">
-      <h2 style="color: #fff;">{{ .Site.Data.profile.primary_account.primary_company_name }}</h2>
-      
-      {{ $address := .Site.Data.profile.address }}
-      <p>{{ $address.street_address }} {{ $address.primary_city }} {{ $address.primary_state }} {{ $address.primary_zip_code }} {{ $address.primary_country }}</p>
-      <p>Company NMLS: 798467</p>
+<div class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        Logo
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas libero mollitia fugit vitae ab, odit sed at delectus tenetur? Illum tempora laboriosam ullam, dicta molestias ab magni est aspernatur? Provident.</p>
+      </div>
+      <div class="column">
+        <h4 class="is-title is-4">Connect</h4>
+        <ul>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4 class="is-title is-4">Resources</h4>
+        <ul>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4 class="is-title is-4">Recent Posts</h4>
+        <ul>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+          <li>test</li>
+        </ul>
+      </div>
     </div>
-  </footer>
-  <div class="bottom-footer has-text-centered">
-    <p><a href="https://hungryram.com" target="_blank">Website Design by Hungry Ram</a></p>
+    <hr>
+    <div class="columns has-text-centered">
+      <div class="column">
+        <a href="">Copy right by Hungry Ram</a>
+      </div>
+      <div class="column">
+        Privacy | Terms | Sitemap
+      </div>
+      <div class="column">
+        Social Social Socials
+      </div>
+    </div>
   </div>
+</div>
+</footer>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="{{.Site.BaseURL}}js/main.js"></script>
+  <script src="{{.Site.BaseURL}}js/slick.min.js"></script>
   <script type="text/javascript" src="{{ .Site.BaseURL }}js/main.js"></script>
+  
   </body>
   </html>
