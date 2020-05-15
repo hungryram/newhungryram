@@ -89,7 +89,7 @@ div.hero-body p {
 }
 
 a.navbar-item img {
-    max-height: 3rem;
+    max-height: 2rem;
 }
 
 div.navbar-brand {
@@ -99,10 +99,22 @@ div.navbar-brand {
 /* END DROP DOWN */
 
 
-
 .navbar>.container {
     align-items: center!important;
 }
+
+/* HERO FOOTER */
+
+div.hero-foot {
+    color: #fff;
+    padding: 40px;
+}
+
+div.hero-foot h4 {
+    color: #fff;
+}
+
+/* PARALLAX */
 
 .parallax__section {
     color: #fff;
@@ -125,15 +137,6 @@ figure.image.is-128x128{
 /* FOOTER */
 
 footer.footer {
-    background: #444C5C;
-    color: #fff;
-}
-
-div.bottom-footer {
-    background-color:#313b4f;
-    padding: 10px 0;
-}
-
-.bottom-footer a {
+    background: #202325;
     color: #fff;
 }

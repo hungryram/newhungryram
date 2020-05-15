@@ -1,0 +1,53 @@
+<div class="blog-sidebar">
+    <div class="card-sidebar">
+    <div class="card-image">
+      <figure class="image is-128x128">
+        <img src="{{ .Site.Data.profile.profile_photo }}" class="is-rounded" alt="Placeholder image" style="object-fit: cover;">
+      </figure>
+    </div>
+    <div class="card-content has-text-centered">
+      <div class="media">
+        <div class="media-content has-text-centered">
+          <p class="title is-4">{{ .Site.Data.profile.primary_contact.full_name }}</p>
+        </div>
+      </div>
+  
+      <div class="content sidebar-social">
+          <ul>
+              {{ if .Site.Data.profile.social.instagram }}<li><a href="{{ .Params.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a></li>{{ end }}
+              {{ if .Site.Data.profile.social.facebook }}<li><a href="{{ .Params.facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
+          </ul>
+          <hr>
+        </div>
+    </div>
+</div>
+
+<h2 class="subtitle is-6">Blog Categories</h2>
+<ul>
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  <li>
+    <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/categories{{ $name | urlize | relURL }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
+  </li>
+  {{end}}
+
+</ul>
+
+<hr>
+
+{{ range  first 4 ( where $.Site.RegularPages "Type" "blog") }}
+<article class="media">
+    {{ if .Params.featured_image }}
+    <div class="media-left">
+      <figure class="image is-96x96">
+        <img src="{{ .Params.featured_image }}" alt="Image">
+      </figure>
+    </div>
+    {{end}}
+    <div class="media-content">
+      <div class="content">
+          <h1 class="title is-6">{{ .Params.title }}</h1>
+          <a href="{{ .Permalink }}">Continue Reading</a>
+    </div>
+</article>
+{{end}}
+</div>

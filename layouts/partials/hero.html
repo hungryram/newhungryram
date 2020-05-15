@@ -1,4 +1,4 @@
-<section class="hero is-fullheight" style="background:url({{ .Site.Data.design.hero.hero_image }}) no-repeat center;background-size:cover;">
+<section class="hero is-fullheight" style="background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.0)),url({{ .Site.Data.design.hero.hero_image }}) no-repeat center;background-size:cover;">
 
   {{ partial "navbar.html" . }}
   
@@ -19,12 +19,23 @@
   <div class="hero-foot">
     <nav class="tabs is-boxed is-fullwidth">
       <div class="container">
-        <ul>
-          <li class="is-active"><a>Cutting edge solutions</a></li>
-          <li><a>Technology trends</a></li>
-          <li><a>Industry experts</a></li>
-          <li><a>Get more for less</a></li>
-        </ul>
+        <div class="columns">
+          <div class="column">
+            <h4 class="subtitle is-6">Cutting edge solutions</h4>
+            <p>Animi reiciendis amet magni placeat.</p>
+          </div>
+          <div class="column">
+            <h4 class="subtitle is-6">Cutting edge solutions</h4>
+            <p>Animi reiciendis amet magni placeat.</p>
+          </div>
+          <div class="column">
+            <h4 class="subtitle is-6">Cutting edge solutions</h4>
+            <p>Animi reiciendis amet magni placeat.</p>          </div>
+          <div class="column">
+            <h4 class="subtitle is-6">Cutting edge solutions</h4>
+            <p>Animi reiciendis amet magni placeat.</p>
+          </div>
+        </div>
       </div>
     </nav>
   </div>

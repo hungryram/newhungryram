@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<div class="section">
+    <div class="container">
+        <div class="columns has-text-centered">
+            <div class="column">
+                <h1 class="title is-4">Our Blog</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eos dolores sint, optio molestias vero blanditiis vitae explicabo et magnam, sed, quia commodi quod. Rerum nemo corporis voluptatem iusto libero.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            
+            <div class="column is-8">
+                {{ range .Pages }}
+                <div class="content notification blog-content-list">
+                    <img src="{{ .Params.featured_image }}" alt="">
+                    <h1>{{.Title}}</h1>
+                    {{ .Summary}}
+                    <hr>
+                    <div class="columns">
+                        <div class="column has-text-left">
+                            <a href="{{ .Permalink }}" class="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="column">
+                {{ partial "sidebar.html" . }}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{ end }}
