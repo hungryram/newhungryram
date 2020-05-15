@@ -1,4 +1,41 @@
 ---
 label: Portfolio
-hide_body: false
-fields: []
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Portfolio Name
+- name: client_name
+  type: text
+  config:
+    required: false
+  label: Client Name
+- name: date_completed
+  type: datetime
+  label: Date Completed
+  description: ''
+  config:
+    required: false
+    date_format: MM/DD/YYYY
+    time_format: 
+    display_utc: false
+- name: approach
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Approach
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
