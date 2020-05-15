@@ -40,4 +40,5 @@ fields:
       format: markdown
   label: Approach
 pages:
+- portfolio/anita-the-realtor.md
 - portfolio/yoori-park-luxury-estates.md
