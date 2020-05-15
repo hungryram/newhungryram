@@ -13,6 +13,8 @@ sections:
   path: data/design.yaml
   label: Design
 - type: heading
+  label: Portfolio
+- type: heading
   label: Pages
 - type: directory
   path: content
