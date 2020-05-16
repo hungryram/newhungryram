@@ -14,10 +14,13 @@ sections:
   label: Design
 - type: heading
   label: Reviews
-- type: document
+- type: directory
   path: content/reviews
   label: Add/View Reviews
+  create: documents
   match: "**/*"
+  templates:
+  - reviews
 - type: heading
   label: Portfolio
 - type: directory
