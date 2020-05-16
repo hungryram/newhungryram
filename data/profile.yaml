@@ -1,20 +1,20 @@
 ---
 primary_photo: "/uploads/0.jpg"
 primary_account:
-  first_and_last_name: John Martin
-  primary_phone_number: "(213) 380-5626"
-  primary_email: johnmartin9876@yahoo.com
-  primary_company_name: American Apple Mortgage
-  fax: 213-380-7532
+  first_and_last_name: Ram Dettmer
+  primary_phone_number: 657-549-5082
+  primary_email: info@hungryram.com
+  primary_company_name: Hungry Ram
+  fax: ''
 address:
-  street_address: 3660 Wilshire Blvd, Suite 518
-  primary_city: Los Angeles
-  primary_state: CA
-  primary_zip_code: "90010"
-  primary_country: United States
-  disable_address: false
+  street_address: ''
+  primary_city: ''
+  primary_state: ''
+  primary_zip_code: ''
+  primary_country: ''
+  disable_address: true
 add_social_links:
-  instagram: ''
-  linkedin: ''
-  facebook: ''
-  twitter: ''
+  instagram: https://www.instagram.com/hungry_ram/
+  linkedin: https://www.linkedin.com/in/ram-dettmer-901406b1/
+  facebook: https://www.facebook.com/HungryRam/
+  twitter: https://twitter.com/RamDettmer
