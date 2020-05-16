@@ -3,16 +3,23 @@
   {{ partial "navbar.html" . }}
   
     <div class="hero-body content">
-      <div class="container has-text-centered">
-        <h1 class="title">
-          {{ .Site.Data.design.hero.hero_title }}
-        </h1>
-        <p class="subtitle">
-          {{ .Site.Data.design.hero.hero_subtitle }}
+      <div class="container">
+        <div class="columns is-vcentered is-gapless">
+          <div class="animate__animated animate__slideInLeft hero-text-overlay">
+            <h1 class="title is-1">
+              {{ .Site.Data.design.hero.hero_title }}
+            </h1>
+            <p class="subtitle">
+              {{ .Site.Data.design.hero.hero_subtitle }}
+            </p>
+          </div>
+          <div>
+            <img src="https://manon.qodeinteractive.com/elementor/wp-content/uploads/2019/02/03.jpg" alt=""  class="animate__animated animate__slideInRight hero-image-overlay">
+          </div>
 
-        </p>
+        </div>
       </div>
-    </div>
+      </div>
 
     
   <!-- Hero footer: will stick at the bottom -->
@@ -22,18 +29,19 @@
         <div class="columns">
           <div class="column">
             <h4 class="subtitle is-6">Cutting edge solutions</h4>
-            <p>Animi reiciendis amet magni placeat.</p>
+            <p>fast rendering websites</p>
           </div>
           <div class="column">
-            <h4 class="subtitle is-6">Cutting edge solutions</h4>
-            <p>Animi reiciendis amet magni placeat.</p>
+            <h4 class="subtitle is-6">Trending Technology</h4>
+            <p>No outdated software ever</p>
           </div>
           <div class="column">
-            <h4 class="subtitle is-6">Cutting edge solutions</h4>
-            <p>Animi reiciendis amet magni placeat.</p>          </div>
+            <h4 class="subtitle is-6">Industry Experts</h4>
+            <p>High end knowledge</p>
+          </div>
           <div class="column">
-            <h4 class="subtitle is-6">Cutting edge solutions</h4>
-            <p>Animi reiciendis amet magni placeat.</p>
+            <h4 class="subtitle is-6">Easy Management</h4>
+            <p>manage your website on any device</p>
           </div>
         </div>
       </div>

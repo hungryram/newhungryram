@@ -50,3 +50,25 @@ $(document).ready(function() {
           // instead of a settings object
         ]
       });
+
+
+      $('.single-item').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+      });
+
+
+      // $('.text-slide').slick({
+      //   autoplay: true,
+      //   autoplaySpeed: 4000
+      // });
+
+      $('.single-item').on('afterChange', function(event, slick, currentSlide){
+        $('.slick-active h1').removeClass('hidden');
+        $('.slick-active h1').addClass('animate__animated animate__slideInLeft');
+    });
+    
+    $('.single-item').on('beforeChange', function(event, slick, currentSlide){
+        $('.slick-active h1').removeClass('animate__animated animate__slideOutLeft');
+        $('.slick-active h1').addClass('hidden');
+    });

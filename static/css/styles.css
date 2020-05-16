@@ -59,6 +59,25 @@ div.hero-body p {
     line-height: 2;
 }
 
+
+div.hero-body h1,
+div.hero-body p {
+    color: #000;
+}
+
+.hero-image-overlay {
+    position: relative;
+    right: 130px;
+    z-index: -1;
+}
+
+/* HERO FOOTER */
+
+.hero-foot h4.subtitle,
+.hero-foot p {
+    color: #000;
+}
+
 /* MENU */
 
 .navbar-brand h1 {
@@ -271,10 +290,18 @@ div.hero-foot h4 {
     color: #fff;
 }
 
+.parallax__section h2.title {
+    color: #fff;
+} 
+
 div.parallax-box {
     border: 1px solid rgba(85, 85, 85, 0.5);
     margin: 10px;
     padding: 40px;
+}
+
+.parallax-box h4.subtitle {
+    color: #fff;
 }
 
 /* TESTIMONIAL SLIDER */
@@ -288,6 +315,35 @@ figure.image.is-128x128{
 /* FOOTER */
 
 footer.footer {
-    background: #202325;
+    background: #000;
     color: #fff;
 }
+
+footer.footer h1,
+footer.footer h4,
+footer.footer h2,
+footer.footer a {
+    color: #fff;
+}
+
+footer.footer ul li {
+    margin: 10px 0;
+}
+
+footer.footer ul li i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+ul.footer-social li {
+    display: inline-block;
+}
+
+.footer-tagline a {
+    text-decoration: underline;
+    font-family: inherit;
+}
+
+
+
+
