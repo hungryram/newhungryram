@@ -27,4 +27,5 @@ fields:
       format: markdown
   label: Review
 pages:
+- content/reviews/anita-iswanto.md
 - content/reviews/yoori-park.md
