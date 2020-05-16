@@ -1,7 +1,6 @@
 {{ partial "head.html" . }}
 {{ partial "navbar.html" . }}
-<div style="{{ with .Site.Data.design.sub_page_image }}background:url({{ . }}) no-repeat center;background-size:cover;height:30vh;{{ end }}">
-</div>
+
 <main>
     {{ block "main" . }}
     

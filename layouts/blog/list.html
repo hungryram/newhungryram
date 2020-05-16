@@ -2,9 +2,9 @@
 
 <div class="section">
     <div class="container">
-        <div class="columns has-text-centered">
-            <div class="column">
-                <h1 class="title is-4">Our Blog</h1>
+        <div class="columns">
+            <div class="column portfolio-title">
+                <h2 class="title is-2">{{ .Title }}</h2>
             </div>
         </div>
     </div>
@@ -16,14 +16,13 @@
             
             <div class="column is-8">
                 {{ range .Pages }}
-                <div class="content notification blog-content-list">
+                <div class="content blog-content-list">
                     <img src="{{ .Params.featured_image }}" alt="">
-                    <h1>{{.Title}}</h1>
-                    {{ .Summary}}
-                    <hr>
+                    <h1 class="title is-3">{{.Title}}</h1>
+                    <p>{{ .Summary }}</p>
                     <div class="columns">
                         <div class="column has-text-left">
-                            <a href="{{ .Permalink }}" class="button">Read More</a>
+                            <a href="{{ .Permalink }}" class="button second-btn">Read More</a>
                         </div>
                     </div>
                 </div>

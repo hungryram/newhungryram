@@ -3,15 +3,21 @@
 <div class="section">
     <div class="container">
         <div class="columns">
-            <div class="column">
-                <h2 class="is-title is-4">{{ .Title }}</h2>
+            <div class="column portfolio-title">
+                <h2 class="title is-2">{{ .Title }}</h2>
             </div>
         </div>
         <div class="columns is-multiline">
             {{ range .Pages }}
-            <div class="column is-4">
-                <div class="portfolio-card box">
-                    {{ .Title }}
+            <div class="column is-4 portfolio-container-list">
+                <div class="portfolio-card">
+                        <div class="portfolio-bg" style="background: url({{ .Params.featured_image }});height: 30vh;position:relative;background-size:cover">
+                            <a href="{{ .Permalink }}">View More</a>
+                        </div>
+                        <div class="portfolio-list-content">
+                            <h4 class="subtitle is-5">{{ .Title }}</h4>
+                            <a href="">Web Design</a>
+                        </div>
                 </div>
             </div>
             {{ end }}
