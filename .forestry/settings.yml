@@ -13,6 +13,12 @@ sections:
   path: data/design.yaml
   label: Design
 - type: heading
+  label: Reviews
+- type: document
+  path: content/reviews
+  label: Add/View Reviews
+  match: "**/*"
+- type: heading
   label: Portfolio
 - type: directory
   path: content/portfolio
