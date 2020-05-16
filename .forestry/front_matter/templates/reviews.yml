@@ -26,3 +26,5 @@ fields:
     schema:
       format: markdown
   label: Review
+pages:
+- content/reviews/yoori-park.md
