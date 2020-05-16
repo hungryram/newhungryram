@@ -1,6 +1,6 @@
 ---
 hero:
-  hero_image: "/uploads/blur-bottle-bright-building-273238.jpg"
+  hero_image: "/uploads/dots.png"
   hero_title: We create and implement strategies that deliver results
   hero_subtitle: Create the look you want on your website.
 info_icons:
@@ -57,7 +57,7 @@ intro_section:
   - RECEIVE A FREE PROPOSAL WITH NO OBLIGATIONS!
   - CALL OR INQUIRE NOW TO DISCOVER THE TRUTH!
 logo:
-  logo: 
-  logo_alt_tag:
+  logo: ''
+  logo_alt_tag: ''
   company_name: Hungry Ram
 sub_page_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
