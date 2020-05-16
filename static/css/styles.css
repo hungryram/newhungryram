@@ -1,3 +1,4 @@
+
 body h1.title,
 body h2.title,
 body h3.title,
@@ -49,6 +50,10 @@ p,
 a,
 li {
     font-family: 'Open Sans', sans-serif;
+ }
+
+ body p {
+    line-height: 1.785em;
  }
 
 /* HERO */
