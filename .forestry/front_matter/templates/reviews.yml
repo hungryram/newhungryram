@@ -1,4 +1,28 @@
 ---
 label: Reviews
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Client Name
+- name: occupation
+  type: text
+  config:
+    required: false
+  label: Occupation
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+- name: review
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Review
