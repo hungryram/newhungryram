@@ -1,22 +1,22 @@
 <div class="section">
   <div class="container">
     <div class="columns is-vcentered">
-      <div class="column">
-        <h2 class="title is-4">Always Bringing Value</h2>
-        <p>Based in Orange County, California. I offer a custom built website design and development with an easy to use management software. With technology always changing, I focus on the best one that will always be easy for my clients. </p><br><br>
+      <div class="column">{{ $introOne := .Site.Data.design.intro_section }}
+        <h2 class="title is-4">{{ $introOne.intro_heading }}</h2>
+        <p>{{ $introOne.introduction_body }}</p><br><br>
         <a href="/contact" class="main-btn">Get in Touch</a>
       </div>
       <div class="column">
-        <img src="https://www.leadengine-wp.com/static/wp-content/uploads/sites/37/2018/02/main-demo-img1.jpg" alt="">
+        <img src="{{ $introOne.intro_image }}" alt="">
       </div>
     </div>
     <div class="columns is-vcentered">
       <div class="column">
-        <img src="https://www.leadengine-wp.com/static/wp-content/uploads/sites/37/2018/02/main-demo-img1.jpg" alt="">
+        <img src="{{ $introOne.second_intro_image }}" alt="">
       </div>
       <div class="column">
-        <h2 class="title is-4">Web design that sells your brand</h2>
-        <p>Agencies take a shortcut by building sites on Wordpress. I focus on a <a href="https://jamstack.org/" target="_blank" style="color: inherit; text-decoration: underline">JAMSTACK</a> method meaning code from scratch without database and make your site faster and secure. Make your website stand out from your competitors and get rid of generic designs</p><br><br>
+        <h2 class="title is-4">{{ $introOne.second_intro_heading }}</h2>
+        <p>{{ $introOne.second_intro_body }}</p><br><br>
         <a href="/contact" class="main-btn">Get in Touch</a>
       </div>
     </div>
