@@ -69,13 +69,30 @@ fields:
       schema:
         format: markdown
     label: Introduction Body
-  - name: intro_points
-    type: list
+  - name: intro_image
+    type: file
     config:
-      use_select: false
-      min: 
-      max: 
-    label: Intro Points
+      maxSize: 64
+    label: Intro Image
+  - name: second_intro_heading
+    type: text
+    config:
+      required: false
+    label: Second Intro Heading
+  - name: second_intro_body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Second Intro Body
+  - name: second_intro_image
+    type: file
+    config:
+      maxSize: 64
+    label: Second Intro Image
   label: Intro Section
 pages:
 - data/design.yaml

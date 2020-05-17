@@ -48,14 +48,21 @@ information_box:
     - Enjoy a Fixed Interest Rate for Life
     - NO MORTGAGE INSURANCE!
 intro_section:
-  intro_heading: CONVERT YOUR HOME EQUITY INTO TAX-FREE CASH WITH A REVERSE MORTGAGE
-    LOAN TESTING
-  introduction_body: Welcome to American Apple Mortgage, We are home loan experts
-    dedicated to making sure your home purchase or refinance experience is top-notch.
+  intro_heading: ALWAYS BRINGING VALUE
+  introduction_body: Based in Orange County, California. I offer a custom built website
+    design and development with an easy to use management software. With technology
+    always changing, I focus on the best one that will always be easy for my clients.
   intro_points:
   - MEET WITH A LICENSED SPECIALIST IN YOUR HOME!
   - RECEIVE A FREE PROPOSAL WITH NO OBLIGATIONS!
   - CALL OR INQUIRE NOW TO DISCOVER THE TRUTH!
+  intro_image: "/uploads/intro4.png"
+  second_intro_heading: WEB DESIGN THAT SELLS YOUR BRAND
+  second_intro_body: Agencies take a shortcut by building sites on Wordpress. I focus
+    on a JAMSTACK method meaning code from scratch without database and make your
+    site faster and secure. Make your website stand out from your competitors and
+    get rid of generic designs
+  second_intro_image: "/uploads/intro1.jpg"
 logo:
   logo: ''
   logo_alt_tag: ''
