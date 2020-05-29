@@ -15,6 +15,9 @@
     <div class="container">
         <div class="columns">
             <div class="column">
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" subject="feedback">
+                    <input name="bot-field" type="hidden">
                 <div class="field">
                     <label class="label">Your Email</label>
                     <div class="control">
@@ -99,6 +102,7 @@
                       <button class="button is-link">Submit</button>
                     </div>
                   </div>
+                  </form>
             </div>
         </div>
     </div>
