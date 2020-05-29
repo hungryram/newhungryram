@@ -1,10 +1,10 @@
 +++
-approach = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus ad similique iste hic est dolorum ea sed, dolorem repudiandae nisi eius dolore rem eveniet, ipsum nobis alias aperiam error!"
+approach = "Since Wordpress was the fastest way to build sites in modern day, we decided on Wordpress and IDX integration which would allow visitors to search homes within his MLS."
 client_name = "Antonio Matier"
-date_completed = 2020-05-18T07:00:00Z
-description = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus ad similique iste hic est dolorum ea sed, dolorem repudiandae nisi eius dolore rem eveniet, ipsum nobis alias aperiam error!"
-featured_image = "/uploads/corinne-kutz-211251-unsplash.jpg"
-gallery = ["/uploads/blur-bottle-bright-building-273238.jpg", "/uploads/0.jpg", "/uploads/agent.jpg"]
+date_completed = 2019-12-18T08:00:00Z
+description = "Antonio Matier is the broker of Lifestyle, CA. Mainly focusing on luxury real estate, he was looking to have a site up and running as soon as possible."
+featured_image = "/uploads/aaa.jpg"
+gallery = ["/uploads/antonio-matier-profile.jpg", "/uploads/int-1.jpg"]
 title = "Lifestyle Realtor"
 
 +++

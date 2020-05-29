@@ -1,10 +1,10 @@
 +++
-approach = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus ad similique iste hic est dolorum ea sed, dolorem repudiandae nisi eius dolore rem eveniet, ipsum nobis alias aperiam error!"
+approach = "The site was used on a custom Wordpress theme I had built designed to be for Realtors, using the Genesis framework for optimal speeds and better SEO. The site was integrated with IDX for automated listing data and a CRM."
 client_name = "Anita Iswanto"
-date_completed = 2020-02-12T08:00:00Z
-description = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus ad similique iste hic est dolorum ea sed, dolorem repudiandae nisi eius dolore rem eveniet, ipsum nobis alias aperiam error!"
-featured_image = "/uploads/mainimage.jpg"
-gallery = ["/uploads/int.jpg", "/uploads/corinne-kutz-211251-unsplash.jpg", "/uploads/agent.jpg", "/uploads/chicago.jpg", "/uploads/alesia-kazantceva-283287-unsplash.jpg"]
+date_completed = 2018-12-21T08:00:00Z
+description = "Anita was looking for a new website manager due to her previous designer retiring. She came across my website and decided to move forward being a local resident."
+featured_image = "/uploads/kichen.jpg"
+gallery = ["/uploads/anita.jpg", "/uploads/whiteinterior.jpg", "/uploads/kichen.jpg"]
 title = "Anita the Realtor"
 
 +++
