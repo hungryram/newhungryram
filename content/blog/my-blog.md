@@ -1,17 +1,21 @@
 +++
-blog_date_published = 2020-05-28T07:00:00Z
-featured_image = "/uploads/mainimage.jpg"
-meta_description = "meta description"
-meta_title = "testing meta title"
-title = "my blog "
+blog_date_published = 2020-05-29T07:00:00Z
+featured_image = "/uploads/wordpress.jpg"
+meta_description = "Wordpress has been the foundation for many small business owners when it comes to developing websites. Many agencies have built their business through Wordpress such as myself."
+meta_title = "Hungry Ram - No More Wordpress"
+title = "Moving Away From Wordpress"
 
 +++
-loremLet's work together to create game-changing experiences that will not only level up your brand, but optimize your website for the best user experience and search engined **optimized**
-loremLet's work together to create **game**-changing experiences that will not only level up your brand, but optimize your website for the best user experience and search engined optimized
-loremLet's work together to create game-changing experiences that will not only level up your brand, but optimize your website for the best user experience and search engined optimized
-loremLet's work together to create game-changing experiences that will not only level up your brand, but optimize your website for the best user experience and search engined optimized
-loremLet's work together to create game-changing experiences that will not only level up your brand, but optimize your website for the best user experience and search engined optimized
+Wordpress has been the foundation for many small business owners when it comes to developing websites. Many agencies have built their business through Wordpress such as myself.
 
-LA EJRNJKSNFDF
+### Finally Calling it Quits
 
-### fdfdfdf
+Yes, it has definitely saved a lot of time in development, but the amount of time it requires to maintain the server and prevent hacking is just too much. Wordpress is highly targetted due to so many small businesses starting websites without caring about the potential security threats it poses.
+
+### The Quarantine
+
+Covid-19 has brought the economy to pretty much a stand still. I was able to work from home and in doing so, I was able to spend a lot of time doing research. I came across the Jamstack architecture for building websites. I was amazed by the technological advancement the web development industry has grown towards. Back in the days, websites were just simple static web pages, then came databases.. which will definitely still be around. Now with Jamstack, we're able to go back to building static websites through Javascript and API.
+
+### The Benefit
+
+There's so many benefits that Jamstack offers because of its high security and fast performance. Small businesses who build sites using Wordpress do not know that it is overkill because it impacts the site performance in a negative way. Learn more about the Jamstack architecture [here](https://jamstack.org)
