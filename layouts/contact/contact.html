@@ -44,23 +44,22 @@
             </div>
             <div class="column">
                 <h2 class="title is-4">Contact Us</h2>
-                
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input name="bot-field" type="hidden" />
+                    <input type="hidden" subject="contact form" />
+                    <div class="field">
+                        <div class="control">
+                          <input class="input" type="text" placeholder="Your Name">
+                        </div>
+                      </div>
                 <div class="field">
                     <div class="control">
-                      <input class="input" type="text" placeholder="Text input">
+                      <input class="input" type="email" placeholder="Your Email" name="email" required>
                     </div>
                   </div>
-                  
                   <div class="field">
                     <div class="control">
-                      <input class="input" type="email" placeholder="Email input">
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="field">
-                    <div class="control">
-                      <textarea class="textarea" placeholder="Textarea"></textarea>
+                      <textarea class="textarea" placeholder="Your message" name="message" required></textarea>
                     </div>
                   </div>
                   
@@ -69,6 +68,7 @@
                       <button class="main-btn">Submit</button>
                     </div>
                   </div>
+                  </form>
                 </div>
         </div>
     </div>
