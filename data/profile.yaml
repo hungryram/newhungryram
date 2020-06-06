@@ -3,7 +3,7 @@ primary_photo: "/uploads/0.jpg"
 primary_account:
   first_and_last_name: Ram Dettmer
   primary_phone_number: 657-549-5082
-  primary_email: info@hungryram.com
+  primary_email: ram@hungryram.com
   primary_company_name: Hungry Ram
   fax: ''
 address:
