@@ -9,5 +9,6 @@ gallery = ["/uploads/yooriparklogomain-1024x866.png", "/uploads/yooriparkagent.p
 portfolio = ["Real Estate"]
 projects = ["Real Estate"]
 title = "Yoori Park Luxury Estates"
+website_link = "htttps://yooripark.com"
 
 +++
