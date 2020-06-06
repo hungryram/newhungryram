@@ -16,7 +16,13 @@
                         </div>
                         <div class="portfolio-list-content">
                             <h4 class="subtitle is-5">{{ .Title }}</h4>
-                            <a href="">Web Design</a>
+                            <ul>
+                                {{ range $name, $taxonomy := .Site.Taxonomies.portfolios }}
+                              <li>
+                                <a href="/portfolio{{ $name | urlize | relURL }}" class="secondary-btn">/ {{ $name | humanize }}</a>
+                              </li>
+                              {{end}}
+                            </ul>
                         </div>
                 </div>
             </div>
