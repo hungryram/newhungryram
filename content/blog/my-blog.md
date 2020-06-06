@@ -1,5 +1,6 @@
 +++
-blog_date_published = 2020-05-29T07:00:00Z
+blog_date_published = "2020-05-29T07:00:00.000+00:00"
+date = 2020-04-16T07:00:00Z
 featured_image = "/uploads/wordpress.jpg"
 meta_description = "Wordpress has been the foundation for many small business owners when it comes to developing websites. Many agencies have built their business through Wordpress such as myself."
 meta_title = "Hungry Ram - No More Wordpress"
