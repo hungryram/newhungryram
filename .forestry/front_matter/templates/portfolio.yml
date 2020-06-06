@@ -48,6 +48,10 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
+- name: portfolio
+  type: tag_list
+  default: []
+  label: Portfolio
 pages:
 - content/portfolio/anita-the-realtor.md
 - content/portfolio/lifestyle-realtor.md
