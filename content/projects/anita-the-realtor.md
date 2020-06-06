@@ -7,6 +7,7 @@ description = "Anita was looking for a new website manager due to her previous d
 featured_image = "/uploads/kichen.jpg"
 gallery = ["/uploads/anita.jpg", "/uploads/whiteinterior.jpg", "/uploads/kichen.jpg"]
 portfolio = ["Real Estate"]
+projects = ["Real Estate"]
 title = "Anita the Realtor"
 
 +++
