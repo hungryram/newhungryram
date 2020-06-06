@@ -9,5 +9,6 @@ gallery = ["/uploads/antonio-matier-profile.jpg", "/uploads/int-1.jpg"]
 portfolio = ["Real Estate", "Broker"]
 projects = ["Real Estate", "Broker"]
 title = "Lifestyle Realtor"
+website_link = "https://lifestyleca.com"
 
 +++
