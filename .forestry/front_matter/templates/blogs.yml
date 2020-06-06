@@ -28,3 +28,4 @@ fields:
   label: Search Engine Optimization
 pages:
 - content/blog/my-blog.md
+- content/blog/why-i-use-jamstack.md
