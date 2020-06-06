@@ -7,6 +7,7 @@ description = "Yoori Park is a Los Angeles Realtor focusing on luxury homes. She
 featured_image = "/uploads/yooripark2.jpg"
 gallery = ["/uploads/yooriparklogomain-1024x866.png", "/uploads/yooriparkagent.png", "/uploads/unnamed.jpg"]
 portfolio = ["Real Estate"]
+projects = ["Real Estate"]
 title = "Yoori Park Luxury Estates"
 
 +++
