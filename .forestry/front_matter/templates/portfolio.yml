@@ -52,3 +52,8 @@ fields:
   type: tag_list
   default: []
   label: projects
+- name: website_link
+  type: text
+  config:
+    required: false
+  label: Website Link
