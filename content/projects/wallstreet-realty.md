@@ -9,5 +9,6 @@ gallery = ["/uploads/what_for_sec_inner_img.jpg", "/uploads/wallstlogo1.png", "/
 portfolio = ["Real Estate", "Broker"]
 projects = ["Real Estate", "Broker"]
 title = "Wallstreet Realty"
+website_link = "https://wallstrealty.com"
 
 +++
