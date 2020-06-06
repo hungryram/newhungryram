@@ -202,6 +202,10 @@ div.portfolio-list-content {
     padding-top: 20px;
 }
 
+div.portfolio-list-content ul li {
+    display: inline-block;
+}
+
 div.portfolio-list-content h4.subtitle {
     margin: 0;
     font-size: 14px;

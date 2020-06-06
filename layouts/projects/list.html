@@ -7,6 +7,21 @@
                 <h2 class="title is-2">{{ .Title }}</h2>
             </div>
         </div>
+        <div class="columns">
+            <div class="column">
+                <div class="tabs is-centered">
+                    <ul>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.projects }}
+                      <li>
+                        <a href="/projects/{{ $name | urlize }}" class="main-btn" style="color: #fff;margin: 0 5px">{{ $name | humanize }}</a>
+                      </li>
+                      {{end}}
+                
+                      <li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
         <div class="columns is-multiline">
             {{ range .Pages }}
             <div class="column is-4 portfolio-container-list">
@@ -17,9 +32,9 @@
                         <div class="portfolio-list-content">
                             <h4 class="subtitle is-5">{{ .Title }}</h4>
                             <ul>
-                                {{ range $name, $taxonomy := .Site.Taxonomies.portfolios }}
+                                {{ range $name, $taxonomy := .Site.Taxonomies.projects }}
                               <li>
-                                <a href="/portfolio{{ $name | urlize | relURL }}" class="secondary-btn">/ {{ $name | humanize }}</a>
+                                <a href="/projects{{ $name | urlize | relURL }}" class="secondary-btn">/ {{ $name | humanize }}</a>
                               </li>
                               {{end}}
                             </ul>
