@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Blog Title
-- name: blog_date_published
+- name: date
   type: datetime
   label: Date Published
   description: ''
