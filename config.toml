@@ -26,5 +26,5 @@ url = "/about"
 weight = 2
 [taxonomies]
 category = "categories"
-portfolio = "portfolios"
+project = "projects"
 tag = "tags"

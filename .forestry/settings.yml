@@ -24,8 +24,8 @@ sections:
 - type: heading
   label: Portfolio
 - type: directory
-  path: content/portfolios
-  label: Add/View Portfolio
+  path: content/projects
+  label: Add/View projects
   create: documents
   match: "**/*"
   templates:
