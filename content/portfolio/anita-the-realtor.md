@@ -6,6 +6,7 @@ date_completed = "2018-12-21T08:00:00.000+00:00"
 description = "Anita was looking for a new website manager due to her previous designer retiring. She came across my website and decided to move forward being a local resident."
 featured_image = "/uploads/kichen.jpg"
 gallery = ["/uploads/anita.jpg", "/uploads/whiteinterior.jpg", "/uploads/kichen.jpg"]
+portfolio = ["Real Estate"]
 title = "Anita the Realtor"
 
 +++
