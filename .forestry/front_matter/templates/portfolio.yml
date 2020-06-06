@@ -12,7 +12,7 @@ fields:
   config:
     required: false
   label: Client Name
-- name: date_completed
+- name: date
   type: datetime
   label: Date Completed
   description: ''
