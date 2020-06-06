@@ -7,6 +7,7 @@ description = "John is the broker of Wallstreet Realty and manages a team of 20 
 featured_image = "/uploads/shutterstock_150649961.jpg"
 gallery = ["/uploads/what_for_sec_inner_img.jpg", "/uploads/wallstlogo1.png", "/uploads/john2.jpg"]
 portfolio = ["Real Estate", "Broker"]
+projects = ["Real Estate", "Broker"]
 title = "Wallstreet Realty"
 
 +++
