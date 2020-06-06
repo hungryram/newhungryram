@@ -28,7 +28,9 @@
                 </div>
                 <div class="portfolio-content">
                     <h4 class="subtitle is-6">Project Completed</h4>
-                    <p>{{ .Params.date_completed }}</p>
+                    <time>{{.Date.Format "Jan 2, 2006" }}</time><br><br>
+                    <h4 class="subtitle is-6">Website Link</h4>
+                    <a href="{{ .Params.website_link }}" target="_blank" style="color: #000">Visit Website</a>
                 </div>
             </div>
         </div>
