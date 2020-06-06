@@ -95,6 +95,11 @@ fields:
     config:
       required: false
     label: Twitter
+  - name: yelp
+    type: text
+    config:
+      required: false
+    label: Yelp
   label: Add Social Links
 pages:
 - data/profile.yaml
