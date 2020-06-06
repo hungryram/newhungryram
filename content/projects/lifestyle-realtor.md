@@ -7,6 +7,7 @@ description = "Antonio Matier is the broker of Lifestyle, CA. Mainly focusing on
 featured_image = "/uploads/aaa.jpg"
 gallery = ["/uploads/antonio-matier-profile.jpg", "/uploads/int-1.jpg"]
 portfolio = ["Real Estate", "Broker"]
+projects = ["Real Estate", "Broker"]
 title = "Lifestyle Realtor"
 
 +++
