@@ -25,6 +25,9 @@ main {
     padding: 40px 30px;
 }
 
+body {
+    overflow:hidden;
+}
 
 .main-btn {
     background: #000;
