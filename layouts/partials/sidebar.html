@@ -12,11 +12,15 @@
         </div>
       </div>
   
-      <div class="content sidebar-social">
-          <ul>
-              {{ if .Site.Data.profile.social.instagram }}<li><a href="{{ .Params.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a></li>{{ end }}
-              {{ if .Site.Data.profile.social.facebook }}<li><a href="{{ .Params.facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
-          </ul>
+      <div class="sidebar-social">
+        {{ $sidebarSocial := .Site.Data.profile.add_social_links }}
+        <ul class="sidebar-social">
+          {{ if $sidebarSocial.facebook }}<li><a href="{{ $sidebarSocial.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
+          {{ if $sidebarSocial.instagram }}<li><a href="{{ $sidebarSocial.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>{{ end }}
+          {{ if $sidebarSocial.linkedin }}<li><a href="{{ $sidebarSocial.linkedin }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>{{ end }}
+          {{ if $sidebarSocial.pinterest }}<li><a href="{{ $sidebarSocial.pinterest }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>{{ end }}
+        </ul>
+        <p>I'm available for projects, get in touch and let's start building your brand using the newest technology for web development</p>
           <hr>
         </div>
     </div>
@@ -45,8 +49,9 @@
     {{end}}
     <div class="media-content">
       <div class="content">
-          <h1 class="title is-6">{{ .Params.title }}</h1>
-          <a href="{{ .Permalink }}">Continue Reading</a>
+          <h1 class="title is-6" style="margin: 0">{{ .Params.title }}</h1>
+          <time>{{.Date.Format "Jan 2, 2006" }}</time><br>
+          <a href="{{ .Permalink }}" style="color: #000">Continue Reading</a>
     </div>
 </article>
 {{end}}

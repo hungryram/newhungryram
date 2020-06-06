@@ -192,6 +192,17 @@ div.navbar-brand {
 
 /* END DROP DOWN */
 
+/* SIDEBAR */
+
+.sidebar-social li a {
+    color: #000;
+}
+
+.sidebar-social li {
+    display: inline-block;
+    margin: 15px 5px;
+}
+
 /* PORTFOLIO LIST */
 
 div.portfolio-container-list {
