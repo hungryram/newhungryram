@@ -3,7 +3,7 @@ date = 2020-06-03T07:00:00Z
 featured_image = "/uploads/staticsites.jpg"
 meta_description = "Stop using Wordpress and move over to a static website generator. Get better ranking, speed, and SEO. Get rid of additional plugins from Wordpress."
 meta_title = "Static Sites Are Back - Hungry Ram"
-title = "Static Sites Are Back - Hungry Ram"
+title = "Static Sites Are Back"
 
 +++
 ### Why Go Back in Time?
