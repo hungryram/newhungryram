@@ -8,7 +8,7 @@
                 <h1 class="title is-1">{{.Title}}</h1>
 
                 <div class="content">
-                    <img src="{{ .Params.featured_image }}" alt="" class="blog-featured-img">
+                    <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="blog-featured-img">
                     <div class="field-content content">
                         {{ .Content }}
                     </div>

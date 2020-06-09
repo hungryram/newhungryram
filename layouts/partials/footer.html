@@ -30,13 +30,13 @@
                     <ul>
                       <li><a href="/contact">Contact</a></li>
                       <li><a href="/portfolio">Portfolio</a></li>
-                      <li><a href="/about">about</a></li>
+                      <li><a href="/about">About</a></li>
                     </ul>
                   </div>
                   <div class="column">
                     <h4 class="title is-4">Recent Posts</h4>
                     <ul>
-                    {{ range  first 2 ( where $.Site.RegularPages "Type" "blog") }}
+                    {{ range  first 5 ( where $.Site.RegularPages "Type" "blog") }}
                     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                     {{end}}
                     </ul>

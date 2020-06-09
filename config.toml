@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://hungryram.com/"
 languageCode = "en-us"
 [[menu.main]]
 name = "Blog"
