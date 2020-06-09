@@ -278,6 +278,17 @@ h2.contact-title.title {
     font-size: 4rem;
 }
 
+/* SHARE */
+
+#share-buttons {
+    margin-top: 50px;
+}
+
+#share-buttons a i {
+     color: #000;
+     margin: 8px;
+}
+
 /* FORMS */
 
 input.input {
