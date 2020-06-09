@@ -28,4 +28,5 @@ fields:
   label: Search Engine Optimization
 pages:
 - content/blog/my-blog.md
+- content/blog/static-sites-are-back-hungry-ram.md
 - content/blog/why-i-use-jamstack.md
