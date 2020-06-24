@@ -57,3 +57,5 @@ fields:
   config:
     required: false
   label: Website Link
+pages:
+- content/projects/american-apple-mortgage.md
