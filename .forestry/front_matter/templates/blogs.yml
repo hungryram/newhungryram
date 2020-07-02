@@ -27,6 +27,7 @@ fields:
   template: seo
   label: Search Engine Optimization
 pages:
+- content/blog/ada-compliant-websites.md
 - content/blog/my-blog.md
 - content/blog/static-sites-are-back-hungry-ram.md
 - content/blog/why-i-use-jamstack.md
