@@ -1,13 +1,17 @@
 baseURL = "https://hungryram.com/"
 languageCode = "en-us"
 [[menu.main]]
+name = "Pricing"
+url = "/pricing"
+weight = 2
+[[menu.main]]
 name = "Blog"
 url = "/blog"
 weight = 4
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 6
+weight = 5
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -15,7 +19,7 @@ weight = 1
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 2
+weight = 3
 [taxonomies]
 category = "categories"
 project = "projects"

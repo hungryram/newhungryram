@@ -57,9 +57,3 @@ fields:
   config:
     required: false
   label: Website Link
-pages:
-- content/projects/american-apple-mortgage.md
-- content/projects/coldwell-banker.md
-- content/projects/frank-chavez.md
-- content/projects/realty-one-group.md
-- content/projects/santa-barbara-beach-club.md
