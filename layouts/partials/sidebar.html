@@ -1,18 +1,9 @@
 <div class="blog-sidebar">
     <div class="card-sidebar">
-    <div class="card-image">
-      <figure class="image is-128x128">
-        <img src="{{ .Site.Data.profile.primary_photo }}" class="is-rounded" alt="Placeholder image" style="object-fit: cover;">
-      </figure>
-    </div>
-    <div class="card-content has-text-centered">
-      <div class="media">
-        <div class="media-content has-text-centered">
-          <p class="title is-4">{{ .Site.Data.profile.primary_account.first_and_last_name }}</p>
-        </div>
-      </div>
+    <div class="card-content has-text-left">
   
       <div class="sidebar-social">
+        <p>Welcome to the blog! Read up on news about our service and the JAMstack architecture!</p>
         {{ $sidebarSocial := .Site.Data.profile.add_social_links }}
         <ul class="sidebar-social">
           {{ if $sidebarSocial.facebook }}<li><a href="{{ $sidebarSocial.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
@@ -21,7 +12,6 @@
           {{ if $sidebarSocial.pinterest }}<li><a href="{{ $sidebarSocial.pinterest }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>{{ end }}
           {{ if $sidebarSocial.yelp }}<li><a href="{{ $sidebarSocial.yelp }}" target="_blank" title="Yelp"><i class="fab fa-yelp"></i></a></li>{{ end }}
         </ul>
-        <p>I'm available for projects, get in touch and let's start building your brand using the newest technology for web development</p>
           <hr>
         </div>
     </div>

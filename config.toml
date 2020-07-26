@@ -5,14 +5,6 @@ name = "Blog"
 url = "/blog"
 weight = 4
 [[menu.main]]
-name = "Feedback"
-url = "/feedback"
-weight = 5
-[[menu.main]]
-name = "Projects"
-url = "/projects"
-weight = 3
-[[menu.main]]
 name = "Contact"
 url = "/contact"
 weight = 6

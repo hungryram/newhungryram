@@ -7,7 +7,7 @@
                     <h1 class="title is-1">Hungry Ram</h1>
                 </div>
                 <div class="column">
-                    <h4 class="subtitle is-3 footer-tagline">Web development & design for the new age, one step at a time. <a href="/projects">See My Work</a></h2>
+                    <h4 class="subtitle is-3 footer-tagline">Web development & design for the new age, one step at a time.</h2>
                 </div>
             </div>
         </div>
@@ -21,8 +21,8 @@
                     {{ $contact := .Site.Data.profile.primary_account }}
                     <ul>
                       {{ if $location }}{{ if $location.disable_address }}{{ else }}<li><i class="fas fa-map-marker-alt"></i> {{ $location.street_address }} {{ $location.primary_city }} {{ $location.primary_state }} {{ $location.primary_zip_code }}{{ end }}</li> {{ end }}
-                      {{ if $contact }}<li><i class="far fa-envelope"></i> <a href="mailto:{{ $contact.primary_email }}">{{ $contact.primary_email }}</a></li> {{ end }}
-                      {{ if $contact }}<li><i class="fas fa-mobile-alt"></i><a href="tel:{{ $contact.primary_phone_number }}">{{ $contact.primary_phone_number }}</a></li> {{ end }}
+                      {{ if $contact }}<li><a href="mailto:{{ $contact.primary_email }}">{{ $contact.primary_email }}</a></li> {{ end }}
+                      {{ if $contact }}<li><a href="tel:{{ $contact.primary_phone_number }}">{{ $contact.primary_phone_number }}</a></li> {{ end }}
                     </ul>       
                   </div>
                   <div class="column">
@@ -43,7 +43,7 @@
                   </div>
                   <div class="column">
                     <h4 class="title is-4">About</h4>
-                    <p>Building sites using Jamstack. Find out why we use Jamstack <a href="https://jamstack.org/" style="text-decoration: underline;" target="_blank">here</a></p>
+                    <p>Providing JAMstack websites for anyone who wants to get an improved website</p>
                 </div>
             </div>
         </div>
@@ -69,6 +69,18 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="{{.Site.BaseURL}}js/slick.min.js"></script>
-<script src="{{.Site.BaseURL}}js/main.js"></script> 
+<script src="{{.Site.BaseURL}}js/main.js"></script>
+<script>
+    window.onload = function() {
+        lax.setup() // init
+    
+        const updateLax = () => {
+            lax.update(window.scrollY)
+            window.requestAnimationFrame(updateLax)
+        }
+    
+        window.requestAnimationFrame(updateLax)
+    }
+</script>
 </body>
 </html>

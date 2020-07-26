@@ -1,21 +1,26 @@
-<section class="hero is-fullheight" style="background:url({{ .Site.Data.design.hero.hero_image }}) no-repeat center;background-size:cover;">
+<section class="hero is-fullheight">
 
-  {{ partial "navbar.html" . }}
+  {{ partial "newnav.html" . }}
   
     <div class="hero-body content">
       <div class="container">
         <div class="columns is-vcentered is-gapless">
-          <div class="animate__animated animate__slideInLeft hero-text-overlay">
+          <div class="column">
             <h1 class="title is-1">
               {{ .Site.Data.design.hero.hero_title }}
             </h1>
+            
             <p class="subtitle">
               {{ .Site.Data.design.hero.hero_subtitle }}
             </p>
-            <a href="/contact" class="hero-cta" style="background: #EE2852;color: #fff; padding: 15px 40px">Learn more</a>
+            <br>
+            <a href="/contact" class="hero-cta" style="background:#D5465F;color: #fff; padding: 15px 40px">Learn more</a>
           </div>
-          <div>
-            <img src="/uploads/main.jpg" alt=""  class="animate__animated animate__slideInRight hero-image-overlay" width="800">
+          <div class="column">
+            <div class="phone-bg">
+              <img src="/uploads/person.png" alt=""  class="banner-person lax" width="150" data-lax-preset="driftRight">
+              <img src="/uploads/phone.png" alt=""  class="banner-person" width="300">
+            </div>
           </div>
 
         </div>
@@ -24,7 +29,7 @@
 
     
   <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
+  {{/*  <div class="hero-foot">
     <nav class="tabs is-boxed is-fullwidth">
       <div class="container">
         <div class="columns">
@@ -47,7 +52,7 @@
         </div>
       </div>
     </nav>
-  </div>
+  </div>  */}}
   </section>
 
   
