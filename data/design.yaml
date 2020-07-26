@@ -1,8 +1,58 @@
 ---
 hero:
+<<<<<<< HEAD
   hero_image: "/uploads/dots.png"
   hero_title: The fastest and easiest way to build your website
   hero_subtitle: Utilizing the modern JAMstack architecture to build websites!
+=======
+  hero_image: "/uploads/banner.png"
+  hero_title: I create and implement strategies that deliver results
+  hero_subtitle: Create the look you want on your website through custom development
+info_icons:
+  icon_info_one:
+    icon_one_select: fas fa-money-bill-alt
+    icon_one_text: ELIMINATE MORTGAGE PAYMENTS
+  icon_info_two:
+    icon_two_select: fas fa-dollar-sign
+    icon_two_text: ONE CASH LUMP SUM OR LINE OF CREDIT
+  icon_three:
+    icon_three_select: fas fa-credit-card
+    icon_three_text: PAY OFF CREDIT CARDS & MEDICAL BILLS
+  icon_four:
+    icon_four_select: fas fa-handshake
+    icon_four_text: PAY FOR CAREGIVING & EXPENSES
+  icon_five:
+    icon_five_select: fas fa-home
+    icon_five_text: RENOVATE OR MAKE IMPROVEMENTS
+information_box:
+  top_info_box:
+    top_message_header: TRADITIONAL REVERSE MORTGAGE ~ HECM ~ HOME EQUITY CONVERSION
+      MORTGAGE
+    top_information_title: FHA MAXIMUM CLAIM AMOUNT UP TO $726,525
+    information_list:
+    - Federally Insured by the U.S. Government
+    - Leave your home to your Heirs, does not automatically go to the bank upon passing
+    - Maintain Title and Ownership of your home for the rest of your life
+    - Obtain a GROWING Line of Credit and use the funds as you need to
+    - Use Funds in a variety of ways to supplement your retirement and improve your
+      monthly cash flow
+    - No Prepayment Penalty
+    - 'Peace of Mind knowing your Surviving Spouse is protected '
+    - Receive Monthly Payments to supplement your retirement income
+    - Get TAX FREE CASH in One Lump Sum
+    - eliminate mortgage payments
+  bottom_info_box:
+    bottom_message_header: JUMBO REVERSE MORTGAGE
+    bottom_information_title: LOAN AMOUNTS UP TO $4,000,000
+    bottom_information_list:
+    - Flex Program allows one Large Lump Sum and Monthly Payments
+    - No Mortgage Payments, Maintain Ownership and Spouse protection- just like the
+      HECM!
+    - NO FHA VALUE Limit
+    - Multiple Product Tiers and Rates, choose what works best for you!
+    - Enjoy a Fixed Interest Rate for Life
+    - NO MORTGAGE INSURANCE!
+>>>>>>> d6d1d0f69333127fe4c4b2c20753c76fe950f999
 intro_section:
   intro_heading: ALWAYS BRINGING VALUE
   introduction_body: Based in Orange County, California. I offer a custom built website
