@@ -8,7 +8,9 @@ featured_image = "/uploads/yooripark2.jpg"
 gallery = ["/uploads/yooriparklogomain-1024x866.png", "/uploads/yooriparkagent.png", "/uploads/unnamed.jpg"]
 portfolio = ["Real Estate"]
 projects = ["Real Estate"]
+short_description = "Luxury realtor of Los Angeles"
 title = "Yoori Park Luxury Estates"
 website_link = "htttps://yooripark.com"
 
 +++
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus dolor voluptatum, alias nostrum rem ad. Iusto molestiae sapiente enim molestias eius, odio quis iste inventore doloribus temporibus tenetur magnam consectetur?
