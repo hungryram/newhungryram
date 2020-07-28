@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Portfolio Name
+- name: short_description
+  type: text
+  config:
+    required: false
+  label: Short Description
 - name: client_name
   type: text
   config:
