@@ -1,8 +1,9 @@
 baseURL = "https://hungryram.com/"
 languageCode = "en-us"
+summaryLength = 10
 [[menu.main]]
-name = "Case Study"
-url = "/case-study"
+name = "Customers"
+url = "/customers"
 weight = 5
 [[menu.main]]
 name = "Pricing"

@@ -44,7 +44,6 @@ body {
 
 a.second-btn {
     font-family: 'Oswald', sans-serif;
-    border-bottom: 1px solid black;
     padding: 0;
     border-right: 0;
     border-left: 0;
@@ -52,6 +51,7 @@ a.second-btn {
     border-radius: 0;
     transition: all .2s ease-in-out;
     text-transform: uppercase;
+    color:#aaaaaa;
 }
 
 a.view-more {
@@ -76,6 +76,29 @@ li {
 
  body p {
     line-height: 1.785em;
+ }
+
+ /* CUSTOMERS */
+ ul.project-list li {
+     display: inline-block;
+     border: 1px solid #D5465F;
+     padding: 5px 10px;
+     border-radius: 20px;
+     margin: 0 5px;
+ }
+
+ div.case-bg {
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+
+ div.case-container-list {
+    transition: all .2s ease-in-out;
+ }
+
+ div.case-container-list:hover {
+    transform:translateY(-10px);
+     transition: all .2s ease-in-out;
  }
 
  /* PRICE */
@@ -165,57 +188,13 @@ header.navbar {
 /* PORTFOLIO LIST */
 
 div.case-study-container {
-   border-bottom-left-radius: 4px;
-   border-bottom-right-radius: 4px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
 div.case-image-container {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-
-div.portfolio-container-list {
-    margin: 20px 0;
-}
-
-div.portfolio-list-content {
-    padding-top: 20px;
-}
-
-div.portfolio-list-content ul li {
-    display: inline-block;
-}
-
-div.portfolio-list-content h4.subtitle {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: normal;
-}
-
-div.portfolio-list-content a {
-    color: #b0b0b0;
-    font-size: 13px;
-}
-
-div.portfolio-bg {
-    transition: all .2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div.portfolio-bg:hover {
-    opacity: .5;
-    transition: all .2s ease;
-}
-
-div.portfolio-bg a {
-    visibility: hidden;
-}
-
-div.portfolio-bg:hover a {
-    visibility: visible;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /* SINGLE PAGE PORTFOLIO */
