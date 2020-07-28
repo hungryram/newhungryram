@@ -1,6 +1,10 @@
 baseURL = "https://hungryram.com/"
 languageCode = "en-us"
 [[menu.main]]
+name = "Case Study"
+url = "/case-study"
+weight = 5
+[[menu.main]]
 name = "Pricing"
 url = "/pricing"
 weight = 2
@@ -11,7 +15,7 @@ weight = 4
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 5
+weight = 6
 [[menu.main]]
 name = "Home"
 url = "/"
