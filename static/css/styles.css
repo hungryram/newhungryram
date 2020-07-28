@@ -1,6 +1,6 @@
-div.section {
+/* div.section {
     padding: 4rem 1.5rem;
-}
+} */
 
 
 body h1.title,
@@ -78,12 +78,30 @@ li {
     line-height: 1.785em;
  }
 
+ /* PRICE */
+
+ ul.price-list li {
+     list-style-type: none;
+     padding-top: 20px;
+ }
+
 /* HERO */
+
+a.hero-cta {
+    background: #d5465f;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+div.hero-body h1.title {
+    font-size: 4rem;
+}
 
 div.hero-body h1,
 div.hero-body p {
     color: #fff;
-    line-height: 1.2;
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 

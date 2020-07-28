@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h2 class="title is-3">Start Putting Together Your Website with a help from a designer</h2>
+                <p>We aim to streamline the web design process between designers and customers. We've heard all the complaints of both parties being unresponsive. By utilizing our tools, we eliminate the back and forth between designers and customers</p>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <form name="register" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input name="bot-field" type="hidden"/>
+                        <div class="field is-horizontal">
+                          <div class="field-body">
+                            <div class="field">
+                              <p class="control is-expanded">
+                                <input class="input" type="text" placeholder="First Name" name="first name">
+                              </p>
+                            </div>
+                            <div class="field">
+                              <p class="control">
+                                <input class="input" type="text" placeholder="Last Name" name="last name">
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="field">
+                          <div class="control">
+                            <input class="input" type="text" placeholder="Phone" name="phone">
+                          </div>
+                        </div>
+              
+                        <div class="field">
+                          <div class="control">
+                            <input class="input" type="email" placeholder="Email" name="email address">
+                          </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Choose a Template</label>
+                            <div class="control">
+                              <div class="select">
+                                <select>
+                                    <option>Small Business</option>
+                                    <option>Real Estate</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="field">
+                            <label class="label">Choose a Plan</label>
+                            <div class="control">
+                              <div class="select">
+                                <select>
+                                    <option>Personal ($14/mo)</option>
+                                    <option>Business ($49/mo)</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+
+                        <div class="control">
+                          <button class="button" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">Submit</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
