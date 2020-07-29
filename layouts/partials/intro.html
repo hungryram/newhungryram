@@ -1,22 +1,35 @@
 <div class="section">
   <div class="container">
-    <div class="columns is-vcentered">
+    <div class="columns is-vcentered pb-6">
       <div class="column">{{ $introOne := .Site.Data.design.intro_section }}
-        <h2 class="title is-4">{{ $introOne.intro_heading }}</h2>
-        <p>{{ $introOne.introduction_body }}</p><br><br>
-        <a href="/contact" class="main-btn">Get in Touch</a>
+        <h2 class="title is-3" style="line-height: 50px;">"Our partnership has always been professional and valuable. The team is very responsive and gets things done faster than expected. I'm so glad I made the switch from my other website provider because now my site is always updated"</h2>
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img class="is-rounded" src="/uploads/johnpagani.png">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>John Pagani</strong><br>
+                <small>Broker at Wallstreet Realty</small>
+              </p>
+            </div>
+          </div>
+        </article>
       </div>
       <div class="column">
-        <img src="{{ $introOne.intro_image }}" alt="">
+        <img src="/uploads/favorites.png" alt="">
       </div>
     </div>
-    <div class="columns is-vcentered">
+    <div class="columns is-vcentered pt-6">
       <div class="column">
-        <img src="{{ $introOne.second_intro_image }}" alt="">
+        <img src="/uploads/map.png" alt="">
       </div>
       <div class="column">
-        <h2 class="title is-4">{{ $introOne.second_intro_heading }}</h2>
-        <p>{{ $introOne.second_intro_body }}</p><br><br>
+        <h2 class="title is-4">Improving the web for clients anywhere in the world</h2>
+        <p>Static websites are deployed to a content delivery network (CDN) where the content is accessible around the world in order to be delivered quickly to users anywhere </p><br><br>
         <a href="/contact" class="main-btn">Get in Touch</a>
       </div>
     </div>

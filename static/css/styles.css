@@ -11,7 +11,7 @@ body h5.title,
 body h6.title{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    color: #000;
+    color: rgb(60, 72, 86);
 }
 
 body h1.subtitle,
@@ -22,7 +22,7 @@ body h5.subtitle,
 body h6.subtitle{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    color: #000;
+    color: rgb(60, 72, 86);
 }
 
 main {
@@ -34,12 +34,22 @@ body {
 }
 
 .main-btn {
-    background: #000;
+    background: #D5465F;
     padding: 15px 50px;
     border: 0;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+}
+
+div.package .main-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 0 14%;
 }
 
 a.second-btn {
@@ -63,15 +73,18 @@ a.view-more {
 
 a,
 li {
-    font-family: 'Mulish', sans-serif;
-    font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    line-height: inherit;
  }
 
  body p {
     /* color: #6e7882; */
     color:rgb(83, 97, 113);
-    font-size: .9rem;
-    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+
  }
 
  body p {
@@ -81,15 +94,32 @@ li {
  /* CUSTOMERS */
  ul.project-list li {
      display: inline-block;
-     border: 1px solid #D5465F;
-     padding: 5px 10px;
+     padding: 5px;
      border-radius: 20px;
      margin: 0 5px;
+     text-transform: uppercase;
+ }
+
+ ul.project-list li a {
+    color: rgb(60, 72, 86);
+    font-size: 20px;
+ }
+
+ ul.project-list li a:hover {
+     color: #D5465F;
  }
 
  div.case-bg {
      border-top-left-radius: 10px;
      border-top-right-radius: 10px;
+     border-bottom: 0px solid #d5465f;
+     transition: all .2s ease-in-out;
+ }
+
+ div.case-bg:hover {
+    border-bottom: 5px solid #d5465f;
+    transition: all .2s ease-in-out;
+
  }
 
  div.case-container-list {
@@ -114,24 +144,23 @@ a.hero-cta {
     background: #d5465f;
     color: #fff;
     padding: 20px 50px;
+    border-radius: 50px;
+    box-shadow: 3px 7px 20px 0px #e699a6;
 }
 
 div.hero-body h1.title {
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: rgb(60, 72, 86);
 }
 
 div.hero-body h1,
 div.hero-body p {
-    color: #fff;
     line-height: 1.5;
     font-size: 1.2rem;
+    color: rgb(60, 72, 86);
 }
 
-
-div.hero-body h1,
-div.hero-body p {
-    color: #000;
-}
 
 .hero-image-overlay {
     position: relative;
@@ -148,6 +177,17 @@ div.hero-body p {
 
 /* MENU */
 
+a.create-account {
+    background-color: #D5465F;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 50px;
+}
+
+a.demo {
+    border-radius: 50px;
+}
+
 .navbar-brand h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 800;
@@ -160,19 +200,27 @@ header.navbar {
     height: 15vh;
 }
 
+div a.navbar-item:hover {
+    color: #D5465F;
+}
+
 /* CTA */
 
-.inner-box {
-    padding: 80px 10px;
-    border-radius: 3px;
-    border: 2px solid rgba(35,31,32,.05);
-    transition: all 1s ease;
+div.cta__section {
+    background: #F5F9FB;
+    margin-top: 50px;
+    padding: 50px 10%;
+    border-radius: 20px;
 }
 
-.inner-box:hover {
-    border: 2px solid black;
-    transition: all 1s ease;
+div.inner-box p {
+    font-size: 16px;
 }
+
+div.inner-box {
+    padding: 50px 0px;
+}
+
 
 /* SIDEBAR */
 
@@ -219,6 +267,15 @@ div.portfolio-content h4.subtitle {
 
 /* CONTACT PAGE */
 
+div.contact-box > div.column > .box {
+    height: 100%;
+}
+
+div.contact-box > div.column > .box a {
+    font-size: inherit;
+    color: #D5465F;
+}
+
 h2.contact-title.title {
     font-size: 2rem;
 }
@@ -255,6 +312,30 @@ textarea.textarea {
 }
 
 /* BLOG PAGE */
+
+.blog-container {
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+}
+
+.card-content p.blog-summary {
+    font-size: 16px;
+}
+
+a.readmore {
+    color: #D5465F;
+}
+
+div.blog-bg {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.blog-container:hover {
+    transform:translateY(-10px);
+     transition: all .2s ease-in-out;
+     box-shadow: 2px 2px 9px #e3eafc;
+}
 
 .blog-featured-img {
     margin: 50px 0;
@@ -296,9 +377,23 @@ figure.image.is-128x128{
 /* PACKAGE */
 
 div.package {
-    padding: 20px 10px;
-    border-radius: 4px;
+    padding: 15% 12%;
+    border-radius: 10px;
     height: 100%;
+    transition: all .2s ease-in-out;
+}
+
+div.package:hover {
+    transform:translateY(-10px);
+    transition: all .2s ease-in-out;
+}
+
+div.package > div.card-content {
+    margin-bottom: 50px;
+}
+
+div.package .package-title {
+    color: #385BB6;
 }
 
 div.package span {

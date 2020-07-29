@@ -2,10 +2,13 @@
 {{ $designNav := .Site.Data.design }}
 
 <div class="top-bar" style="background:#231F20;padding:10px">
-    <p style="font-size: 12px;color: #fff">Using the modern JAMstack architecture</p>
+    <div class="container">
+      <p style="font-size: 12px;color: #fff">Using the modern JAMstack architecture</p>
+    </div>
 </div>
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation" style="border-bottom:2px solid rgba(35,31,32,.05);padding: 20px 0;">
-    <div class="navbar-brand">
+  <div class="container">  
+  <div class="navbar-brand">
     
       <a class="navbar-item" href="{{ .Site.BaseURL }}">
         <h1>{{ .Site.Data.design.logo.company_name }}</h1>
@@ -48,14 +51,15 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a href="/sign-up" class="button has-text-white" style="background:#D5465F">
-              <strong>Create my Account</strong>
+            <a href="/sign-up" class="button create-account">
+              Create my Account
             </a>
-            <a href="/demo" class="button">
+            <a href="/demo" class="button demo">
               Demo
             </a>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </nav>
