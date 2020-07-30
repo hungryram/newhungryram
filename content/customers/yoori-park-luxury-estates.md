@@ -8,6 +8,7 @@ featured_image = "/uploads/yooripark2.jpg"
 gallery = ["/uploads/yooriparklogomain-1024x866.png", "/uploads/yooriparkagent.png", "/uploads/unnamed.jpg"]
 portfolio = ["Real Estate"]
 projects = ["Real Estate"]
+review = "Ram is so efficient with my website. I'm so happy to be working with him and I can't see my site being managed anywhere else. He was able to always upgrade my website without having me ask."
 title = "Yoori Park Luxury Estates"
 website_link = "htttps://yooripark.com"
 
