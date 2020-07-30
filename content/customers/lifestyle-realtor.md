@@ -8,6 +8,7 @@ featured_image = "/uploads/aaa.jpg"
 gallery = ["/uploads/antonio-matier-profile.jpg", "/uploads/int-1.jpg"]
 portfolio = ["Real Estate", "Broker"]
 projects = ["Real Estate", "Broker"]
+review = "Ram worked on my website and delivered all my requests. I am proud to have worked with Ram with the website because most agencies would brush off most of my requests."
 title = "Lifestyle Realtor"
 website_link = "https://lifestyleca.com"
 
