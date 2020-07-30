@@ -7,6 +7,15 @@ fields:
   config:
     required: false
   label: Portfolio Name
+- name: review
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Review
 - name: short_description
   type: text
   config:
