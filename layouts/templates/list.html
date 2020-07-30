@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <h2 class="title is-2">Pick your design</h2>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h4 class="title is-4">Browse by category</h4>
+                <ul>
+                    {{ range $designs, $taxonomy := .Site.Taxonomies.designs }}
+                  <li>
+                    <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/designs{{ $designs | urlize | relURL }}" class="secondary-btn">{{ $designs | humanize }} ({{ $taxonomy.Count }})</a>
+                  </li>
+                  {{end}}
+        
+                </ul>
+            </div>
+            <div class="column is-10">
+                <div class="columns is-multiline is-variable is-8">
+                    <div class="column is-6">
+                        <div class="card theme-card">
+                            <div class="theme-img">
+                                <img src="{{ .Params.template }}" alt="">
+                            </div>
+                            <div class="columns is-vcentered pt-4 pb-4">
+                                <div class="column">
+                                    <div>
+                                        <h4 class="subtitle is-4">Koncept</h4>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <a href="{{ .Permalink }}" class="theme-btn">Choose Theme</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

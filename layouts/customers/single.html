@@ -7,9 +7,18 @@
                 <h2 class="title is-2">{{ .Title }}</h2>
             </div>
         </div>
-        <div class="columns">
-            <div class="column is-8">
+        <div class="columns is-variable is-8">
+            <div class="column is-8 content portfolio-content">
                 {{ .Content }}
+                <div class="single-review mt-6 mb-6">
+                    <h4 class="title is-4">"{{ .Params.review }}"</h4>
+                    <p>{{ .Params.client_name }}</p>
+                </div>
+                <div class="portfolio-cta pt-6
+                ">
+                    <p>Want to improve your website performance and speed? Get in touch and see how JAMstack can benefit you</p>
+                    <p><a href="/contact">Contact us</a> and learn more about what we can do to help your business</p>
+                </div>
             </div>
             <div class="column content portfolio-right">
                 <div class="portfolio-content">
@@ -21,6 +30,26 @@
                     <time>{{.Date.Format "Jan 2, 2006" }}</time><br><br>
                     <h4 class="subtitle is-6">Website Link</h4>
                     <a href="{{ .Params.website_link }}" target="_blank" style="color: #000">Visit Website</a>
+                    <div id="share-buttons"> 
+                        <h3 class="subtitle is-5">Share this Case Study</h3>
+               
+                        <!-- Email -->
+                        <a href="mailto:?Subject=Check%20Out%20This%20Project&amp;Body=Check%20out%20this%20project%20from%20{{ .Permalink | absURL }}">
+                          <i class="far fa-envelope"></i>
+                        </a>    
+                        <!-- Facebook -->
+                        <a href="http://www.facebook.com/sharer.php?u={{ .Permalink | absURL }}" target="_blank">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>     
+                        <!-- LinkedIn -->
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink | absURL }}" target="_blank">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>       
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/share?url={{ .Permalink | absURL }}&amp;text=Check%20out%20this%20project%20on%20{{ .Site.Data.profile.logo_and_title.website_title }}" target="_blank">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                    </div> <!-- end share buttons -->
                 </div>
             </div>
         </div>

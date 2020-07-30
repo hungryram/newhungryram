@@ -10,7 +10,7 @@ portfolio = ["Real Estate"]
 projects = ["Real Estate"]
 review = "Ram is so efficient with my website. I'm so happy to be working with him and I can't see my site being managed anywhere else. He was able to always upgrade my website without having me ask."
 title = "Yoori Park Luxury Estates"
-website_link = "htttps://yooripark.com"
+website_link = "https://yooripark.com"
 
 +++
 Yoori Park is featured on HGTV on Rock the Block. With over 18 years of training and experience in both sales and customer service, she is not only results-oriented but also deeply values building rapport with each and every one of her clients.
