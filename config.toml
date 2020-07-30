@@ -4,7 +4,7 @@ summaryLength = 10
 [[menu.main]]
 name = "Templates"
 url = "/templates"
-weight = 7
+weight = 6
 [[menu.main]]
 name = "Customers"
 url = "/customers"
@@ -20,7 +20,7 @@ weight = 4
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 6
+weight = 7
 [[menu.main]]
 name = "Home"
 url = "/"
