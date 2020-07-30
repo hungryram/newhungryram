@@ -9,6 +9,8 @@ sections:
   label: Templates
   create: documents
   match: "**/*"
+  templates:
+  - templates
 - type: directory
   path: content/customers
   label: Case Study
