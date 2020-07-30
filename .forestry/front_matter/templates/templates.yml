@@ -16,3 +16,5 @@ fields:
   type: tag_list
   default: []
   label: Designs
+pages:
+- content/templates/koncept.md
