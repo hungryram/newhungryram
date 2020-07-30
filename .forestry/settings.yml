@@ -5,7 +5,7 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/case-study
+  path: content/customers
   label: Case Study
   create: documents
   match: "**/*"
