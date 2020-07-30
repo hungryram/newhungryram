@@ -14,4 +14,18 @@ website_link = "htttps://yooripark.com"
 +++
 Yoori Park is featured on HGTV on Rock the Block. With over 18 years of training and experience in both sales and customer service, she is not only results-oriented but also deeply values building rapport with each and every one of her clients.
 
-###The Challenge
+### The Challenge
+
+Yoori needed a website that was reliable and fast enough to display her luxury listings to any visitors looking to move within Los Angeles.
+
+Her previous design was a Wordpress website which impacted her pagespeed score.
+
+Adding in listings was time consuming due to the load speed of the Wordpress dashboard and limited functionalities of listing properties. Making simple changes to the website ended up taking more time than necessary.
+
+### Making the Leap to a new platform
+
+JAMstack was trending and new technologies were being developed. We knew that JAMstack would outrank Wordpress by a long shot so we decided to build the site using HUGO and Forestry.io as the backend. A few reasons behind this choice were the easy user interface that Forestry.io provided and Hugo having a fast build time for the changes that needed to be made.
+
+### The Result
+
+We were able to deliver a website that outranked her competitors and help her grow in the digital world by providing Yoori a high page speed score on Google Insight. The project took 2 weeks to complete and we are still helping Yoori to this day.
