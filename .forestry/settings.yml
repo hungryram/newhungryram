@@ -5,6 +5,11 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: content/templates
+  label: Templates
+  create: documents
+  match: "**/*"
+- type: directory
   path: content/customers
   label: Case Study
   create: documents
@@ -28,15 +33,6 @@ sections:
   match: "**/*"
   templates:
   - reviews
-- type: heading
-  label: Portfolio
-- type: directory
-  path: content/projects
-  label: Add/View projects
-  create: documents
-  match: "**/*"
-  templates:
-  - portfolio
 - type: heading
   label: Pages
 - type: directory
