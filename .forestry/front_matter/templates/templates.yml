@@ -1,4 +1,18 @@
 ---
 label: Templates
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: template
+  type: file
+  config:
+    maxSize: 64
+  label: Template
+- name: designs
+  type: tag_list
+  default: []
+  label: Designs
