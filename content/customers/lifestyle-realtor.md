@@ -12,3 +12,22 @@ title = "Lifestyle Realtor"
 website_link = "https://lifestyleca.com"
 
 +++
+### Overview
+
+Antonio Matier founded California Homes It's a Lifestyle to establish a boutique real estate firm located in Northern California. For more than 20 years, Lifestyle CA has assisted buyers and sellers with making their real estate dreams come true.
+
+### The Design
+
+Antonio was looking for a redesign from an old site back that was built back in early 2000. The code used was ASP which is now fairly outdated but still used by some major companies. Our team knows that ASP needed to be switched out and the site moved to a more modern technology.
+
+We built Antonio a Wordpress website with IDX integration with the MLS board.
+
+### The Design
+
+The biggest challenge was the design of the layout. Some designs were very limited in Wordpress so we were struggling to deliver the project with some specific needs but Antonio put his trust in the team.
+
+### Emerging Technologies
+
+With JAMstack trending in the web development world. We decided to move all our clients to this new web architecture due to the many benefits it provided for both developers and the client.
+
+While in the process of moving the Lifestyle CA site to the JAMstack architecture, we'll begin to see growth in the site and SEO from the increased page speed score and more controlled SEO.
