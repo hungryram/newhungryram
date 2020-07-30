@@ -2,6 +2,10 @@ baseURL = "https://hungryram.com/"
 languageCode = "en-us"
 summaryLength = 10
 [[menu.main]]
+name = "Templates"
+url = "/templates"
+weight = 7
+[[menu.main]]
 name = "Customers"
 url = "/customers"
 weight = 5
@@ -27,6 +31,6 @@ url = "/about"
 weight = 3
 [taxonomies]
 category = "categories"
+design = "designs"
 project = "projects"
 tag = "tags"
-design = "designs"
