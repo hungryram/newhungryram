@@ -12,5 +12,6 @@ title = "Yoori Park Luxury Estates"
 website_link = "htttps://yooripark.com"
 
 +++
+Yoori Park is featured on HGTV on Rock the Block. With over 18 years of training and experience in both sales and customer service, she is not only results-oriented but also deeply values building rapport with each and every one of her clients.
 
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus dolor voluptatum, alias nostrum rem ad. Iusto molestiae sapiente enim molestias eius, odio quis iste inventore doloribus temporibus tenetur magnam consectetur?
+###The Challenge
