@@ -37,6 +37,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    border-radius: 50px;
 }
 
 div.package .main-btn {
@@ -243,12 +244,56 @@ div.case-image-container {
 }
 
 /* TEMPLATES */
+
+ul.theme-cat li a{
+    transition: all .2s ease-in-out;
+    color: rgb(60, 72, 86);
+}
+
+ul.theme-cat li a:hover{
+    transition: all .2s ease-in-out;
+    color: #D5465F;
+}
+
+ul.theme-cat li {
+    margin: 15px 2px;
+}
+
+div.button-wrap ul li{
+    display: inline-block;
+    float: right;
+    margin: 0 5px;
+}
+
 a.theme-btn {
     background: transparent;
     border: 1px solid #D5465F;
-    padding: 10px 30px;
+    padding: 5px 7px;
     color: #000;
     border-radius: 50px;
+    transition: all .2s ease-in-out;
+    font-size: 14px;
+}
+
+a.preview-btn {
+    border: 1px solid #000;
+    padding: 5px 7px;
+    color: #000;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+    font-size: 14px;
+}
+
+a.preview-btn:hover {
+    background: rgb(60, 72, 86);
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+a.theme-btn:hover {
+    background: #D5465F;
+    color: white;
+    transition: all .2s ease-in-out;
 }
 
 div.theme-card {
@@ -275,8 +320,11 @@ div.single-review h4.title {
     line-height: 45px;
 }
 
-div.portfolio-content p {
+div.aboutpage p,
+div.aboutpage li {
     font-size: 18px;
+    margin-bottom: 15px;
+    list-style-type: disc;
 }
 
 div.portfolio-content a{
@@ -357,10 +405,6 @@ input.input[type="radio"] {
     position: fixed;
     width: 0;
     margin: 10px 0;
-}
-
-div.control > .select {
-
 }
 
 input.input {
@@ -510,6 +554,6 @@ ul.footer-social li {
     font-family: inherit;
 }
 
-
-
-
+a.terms {
+    color: #D5465F;
+}
