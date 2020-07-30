@@ -12,3 +12,20 @@ title = "Wallstreet Realty"
 website_link = "https://wallstrealty.com"
 
 +++
+We at Hungry Ram love working with people who always look to grow their business in the digital world.
+
+When John from Wallstreet Realty connected with us in 2018 to rebuild the brokers site, we were thrilled because we were helping a large growing brokerage of 17+ agents meet their goals.
+
+### Overview
+
+The old Wallstreet Realty website was built using ASP using ugly URLs, messy page structure for visitors and generic information that was never updated. Load times were surprisingly slow with a page speed score of 20.
+
+We were able to rebuild their site using Wordpress but later finding that it was too limited and vulnerable to security threats. We both wanted to prevent any security issues from happening and in order to do that, we moved the site to a CDN and eliminated the database.
+
+With Hugo as the static site generator, the project was able to be developed quickly and a headless CMS like Forestry.io would be where content can easily be edited.
+
+### The Biggest Challenge
+
+The biggest challenge was managing the Wordpress website. It became too clunky due to the many plugins and security threats. The site would become infected and had to be backed up frequently.
+
+Once the site was migrated to a JAMstack architecture, we were able to improve page speed and user experience on the clients end and their visitors.
