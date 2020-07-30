@@ -17,4 +17,5 @@ fields:
   default: []
   label: Designs
 pages:
+- content/templates/behold.md
 - content/templates/koncept.md
