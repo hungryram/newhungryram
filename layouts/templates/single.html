@@ -1,3 +1,72 @@
 {{ define "main" }}
 
+<div class="section">
+    <div class="container">
+        <div class="columns has-text-centered">
+            <div class="column is-half is-offset-one-quarter">
+                <h2 class="title is-2">We're moving along</h2>
+                <p>We look forward to working with you</p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <form name="new" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input name="bot-field" type="hidden"/>
+                    <input type="hidden" name="template" value="{{ .Title }}">
+                    <input type="hidden" name="subject" value="New Sign Up">
+                    <div class="field is-horizontal">
+                      <div class="field-body">
+                        <div class="field">
+                          <p class="control is-expanded">
+                            <input class="input" type="text" placeholder="First Name" name="first name" required>
+                          </p>
+                        </div>
+                        <div class="field">
+                          <p class="control">
+                            <input class="input" type="text" placeholder="Last Name" name="last name">
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="field">
+                      <div class="control">
+                        <input class="input" type="text" placeholder="Phone" name="phone">
+                      </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">                        
+                            <div class="select is-rounded">
+                                <select name="plan">
+                                <option name="free">Free/Trial</option>
+                                <option name="personal">Personal</option>
+                                <option name="business">Business</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                      <div class="control">
+                        <input class="input" type="email" placeholder="Email" name="email address">
+                      </div>
+                    </div>
+                    <div class="control">
+                      <button class="main-btn" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}" type="submit">Submit</button>
+                    </div>
+                    <div class="field pt-5">
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox" required>
+                                I agree to the <a href="#">terms and conditions</a>
+                              </label>
+                        </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 {{ end }}
