@@ -1,0 +1,134 @@
+{{ define "main" }}
+
+      <div class="hero-body content">
+        <div class="container">
+          <div class="columns is-vcentered is-gapless">
+            <div class="column">
+              <h1 class="title is-1">
+                Dominate your competition with custom development
+              </h1>
+              
+              <p class="subtitle">
+                A custom website design and development using the JAMstack approach will rank you higher than your competitors.
+              </p>
+              <br>
+              <a href="#get-started" class="hero-cta">Get Started</a>
+            </div>
+            <div class="column mt-6">
+              <div class="phone-bg">
+                <img src="/uploads/webdevelopment.png" alt="">
+              </div>
+            </div>
+  
+          </div>
+        </div>
+        </div>
+  
+      
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <h4 class="subtitle is-6">Cutting edge solutions</h4>
+              <p>Fast rendering websites</p>
+            </div>
+            <div class="column">
+              <h4 class="subtitle is-6">Trending Technology</h4>
+              <p>No outdated software ever</p>
+            </div>
+            <div class="column">
+              <h4 class="subtitle is-6">ADA Compliant</h4>
+              <p>Integrated ADA compliant website</p>
+            </div>
+            <div class="column">
+              <h4 class="subtitle is-6">Easy Management</h4>
+              <p>Manage your website on any device</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    <div class="section">
+        <div class="container cta__section">
+            <div class="columns has-text-centered pt-6 pb-6">
+                <div class="column">
+                    <h1 class="title is-4">The approach to a simplified design process</h1>
+                    <p>Unlike most agencies who use drag-and-drop like Wordpress, we use modern coding technologies - built from the ground up</p>
+                </div>
+            </div>
+            <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+                <div class="column">
+                    <div class="inner-box">
+                        <h2 class="title is-4">Research and Strategy</h2>
+                        <p>Understanding the objectives of a new website is key. Information architecture defines how the content will be structured and how visitors can access it. Analyzing your competitors website will help the team understand how we can improve the site</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="inner-box">
+                        <h2 class="title is-4">Web Design Mock Up</h2>
+                        <p>Based off of the research, a website design will be presented to you for approval. Visual elements such as buttons, information boxes, and menus need to be designed the compliment the tone of the site. We'll work closely with you to understand the overall feel of your brand. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+                <div class="column">
+                    <div class="inner-box">
+                        <h2 class="title is-4">Web Development</h2>
+                        <p>The fun part! We now get to develop the website to meet all the requirements identified in the research and planning phase. Not only is it just bringing your site to life, but ensure the site is built to comply with all relevant accessibility standards and SEO.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="inner-box">
+                        <h2 class="title is-4">Launch!</h2>
+                        <p>Prior to launching, Google analytics will be installed to help track data. Also, Running tests to focus on the functionality, performance, and security is crucial to any web project. The site will be launched using a CDN rather than a server to help your page speed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="columns" id="get-started">
+                <div class="column">
+                    <div class="content">
+                        <h1 class="title is-2">Let's start a project</h1>
+                        <form name="custom web design" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                            <input name="bot-field" type="hidden" />
+                            <input type="hidden" name="subject" value="Custom Web Design" />
+                            <div class="field">
+                                <div class="control">
+                                  <input class="input" type="text" placeholder="Your Name" name="name">
+                                </div>
+                              </div>
+                        <div class="field">
+                            <div class="control">
+                              <input class="input" type="email" placeholder="Your Email" name="email" required>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control">
+                              <textarea class="textarea" placeholder="Talk about your ideas and project" name="message" required></textarea>
+                            </div>
+                          </div>
+                          
+                          <div class="field is-grouped">
+                            <div class="control">
+                              <button class="main-btn">Submit</button>
+                            </div>
+                          </div>
+                          </form>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="/uploads/dev.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    
+
+{{ end }}
