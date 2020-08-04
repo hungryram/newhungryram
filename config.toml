@@ -2,13 +2,17 @@ baseURL = "https://hungryram.com/"
 languageCode = "en-us"
 summaryLength = 10
 [[menu.main]]
+name = "Custom Websites"
+url = "/jamstack-website-design"
+weight = 6
+[[menu.main]]
 name = "Templates"
 url = "/templates"
-weight = 6
+weight = 5
 [[menu.main]]
 name = "Customers"
 url = "/customers"
-weight = 5
+weight = 4
 [[menu.main]]
 name = "Pricing"
 url = "/pricing"
@@ -16,11 +20,11 @@ weight = 2
 [[menu.main]]
 name = "Blog"
 url = "/blog"
-weight = 4
+weight = 7
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 7
+weight = 8
 [[menu.main]]
 name = "Home"
 url = "/"
