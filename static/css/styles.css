@@ -260,7 +260,6 @@ ul.theme-cat li {
 }
 
 div.button-wrap ul li{
-    display: inline-block;
     float: right;
     margin: 0 5px;
 }

@@ -11,8 +11,8 @@
     <div class="container">
         <div class="columns">
             <div class="column">
-                <h4 class="title is-4">Browse by category</h4>
-                <ul>
+                <h4 class="title is-4">Browse by</h4>
+                <ul class="theme-cat">
                     {{ range $designs, $taxonomy := .Site.Taxonomies.designs }}
                   <li>
                     <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/designs{{ $designs | urlize | relURL }}" class="secondary-btn">{{ $designs | humanize }} ({{ $taxonomy.Count }})</a>
@@ -29,14 +29,19 @@
                             <div class="theme-img">
                                 <img src="{{ .Params.template }}" alt="">
                             </div>
-                            <div class="columns is-vcentered pt-4 pb-4">
+                            <div class="columns is-vcentered pt-4 pb-4 is-mobile">
                                 <div class="column">
                                     <div>
-                                        <h4 class="subtitle is-4">Koncept</h4>
+                                        <h4 class="subtitle is-6">{{ .Title }}</h4>
                                     </div>
                                 </div>
                                 <div class="column">
-                                    <a href="{{ .Permalink }}" class="theme-btn">Choose Theme</a>
+                                    <div class="button-wrap">
+                                        <ul>
+                                            <li><a href="{{ .Permalink }}" class="theme-btn">Select</a></li>
+                                            <li><a href="{{ .Params.preview }}" target="_blank" class="preview-btn">Preview</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
