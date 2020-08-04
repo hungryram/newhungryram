@@ -2,9 +2,17 @@
 hero:
   hero_image: "/uploads/dots.png"
   hero_title: Build a faster, secured, and scalable website
-  hero_subtitle: We maximize your business potential through the latest and innovative technologies known as JAMstack.
+  hero_subtitle: We maximize your business potential through the latest and innovative
+    technologies known as JAMstack.
 logo:
   logo: ''
   logo_alt_tag: ''
   company_name: Hungry Ram
-sub_page_image: "/uploads/20200423-01-3952RevereAve-LosAngeles,CA-004-Small.jpg"
+sub_page_image: ''
+intro_section:
+  intro_heading: ''
+  introduction_body: ''
+  intro_image: ''
+  second_intro_heading: ''
+  second_intro_body: ''
+  second_intro_image: ''

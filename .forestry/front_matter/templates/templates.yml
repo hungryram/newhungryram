@@ -16,6 +16,11 @@ fields:
   type: tag_list
   default: []
   label: Designs
+- name: preview
+  type: text
+  config:
+    required: false
+  label: Preview
 pages:
 - content/templates/behold.md
 - content/templates/corona.md
