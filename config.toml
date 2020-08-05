@@ -22,10 +22,6 @@ name = "Blog"
 url = "/blog"
 weight = 7
 [[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 8
-[[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
