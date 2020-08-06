@@ -7,15 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="{{.Site.BaseURL}}css/styles.css">
-    <link rel="stylesheet" href="{{.Site.BaseURL}}css/bulma.min.css">
-    <link rel="stylesheet" href="{{.Site.BaseURL}}css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-
 
     <meta name="google-site-verification" content="wAmNl-djcf7naDnLrCdiVHUTwj-WKZsKANYRmhFJXXA" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -56,22 +49,20 @@
     </script>
     <!-- End of Async Drift Code -->
 
-    {{ with .Params.meta_title }}
+    {{ with .Params.search_engine_optimization.title_tag }}
     <title>{{ . }}</title>
+    {{ else }}
+    <title>{{ .Site.Data.profile.search_engine_optimization.title_tag }}</title>
     {{ end }}
-
-    {{ with .Params.meta_description }}
+    {{ with .Params.search_engine_optimization.meta_description }}
     <meta name="description" content="{{ . }}">
+    {{ else }}
+    <meta name="description" content="{{ .Site.Data.profile.search_engine_optimization.meta_description }}">
     {{ end }}
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
     <script src="https://kit.fontawesome.com/2dac2bfc0f.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/slick-theme.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
-
 </head>
 <body>

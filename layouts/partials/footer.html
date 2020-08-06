@@ -70,17 +70,5 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="{{.Site.BaseURL}}js/slick.min.js"></script>
 <script src="{{.Site.BaseURL}}js/main.js"></script>
-<script>
-    window.onload = function() {
-        lax.setup() // init
-    
-        const updateLax = () => {
-            lax.update(window.scrollY)
-            window.requestAnimationFrame(updateLax)
-        }
-    
-        window.requestAnimationFrame(updateLax)
-    }
-</script>
 </body>
 </html>
