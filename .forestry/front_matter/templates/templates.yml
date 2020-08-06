@@ -21,6 +21,11 @@ fields:
   config:
     required: false
   label: Preview
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
 pages:
 - content/templates/behold.md
 - content/templates/pad.md
