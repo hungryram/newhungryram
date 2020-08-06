@@ -101,5 +101,10 @@ fields:
       required: false
     label: Yelp
   label: Add Social Links
+- name: search_engine_optimization
+  type: include
+  config: {}
+  template: seo
+  label: Search Engine Optimization
 pages:
 - data/profile.yaml
