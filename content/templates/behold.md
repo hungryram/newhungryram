@@ -1,6 +1,7 @@
 +++
-designs = ["Business"]
+designs = []
+preview = ""
 template = "/uploads/template4.jpg"
-title = "Behold"
+title = "Coming Soon"
 
 +++
