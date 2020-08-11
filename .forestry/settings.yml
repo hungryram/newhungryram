@@ -27,15 +27,6 @@ sections:
   path: data/design.yaml
   label: Design
 - type: heading
-  label: Reviews
-- type: directory
-  path: content/reviews
-  label: Add/View Reviews
-  create: documents
-  match: "**/*"
-  templates:
-  - reviews
-- type: heading
   label: Pages
 - type: directory
   path: content
@@ -72,12 +63,6 @@ sections:
   match: "**/*"
   templates:
   - blogs
-- type: heading
-  label: Help
-- type: document
-  path: data/icons.json
-  label: Developer Icon Access
-  read_only: true
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
