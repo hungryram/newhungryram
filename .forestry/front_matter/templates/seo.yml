@@ -17,4 +17,6 @@ fields:
       format: markdown
   label: Meta Description
 pages:
+- content/about/_index.md
+- content/jamstack-website-design/_index.md
 - content/real-estate-websites/_index.md

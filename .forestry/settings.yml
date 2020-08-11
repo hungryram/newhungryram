@@ -38,19 +38,15 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact
-  match: "**/*"
 - type: document
   path: content/pricing/_index.md
   label: Pricing
-  match: "**/*"
 - type: document
   path: content/about/_index.md
   label: About
-  match: "**/*"
 - type: document
   path: content/jamstack-website-design/_index.md
   label: Jamstack Websites
-  match: "**/*"
 - type: document
   path: content/real-estate-websites/_index.md
   label: Real Estate Website
