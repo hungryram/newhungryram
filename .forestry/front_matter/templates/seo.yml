@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: Meta Description
+pages:
+- content/real-estate-websites/_index.md

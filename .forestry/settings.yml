@@ -47,7 +47,6 @@ sections:
 - type: document
   path: content/real-estate-websites/_index.md
   label: Real Estate Website
-  match: "**/*"
 - type: heading
   label: Blog
 - type: directory
