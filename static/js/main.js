@@ -12,4 +12,19 @@ $(document).ready(function() {
       $('.sub-menu').click(function(){
       $('.sub').toggleClass('open');
        });
+
+       $(window).ready(function(){
+        setTimeout(function(){ 
+            $(".modal").addClass("is-active");
+        }, 3000);
+      
+      });
+      
+      $(".delete").click(function() {
+        $("html").removeClass("is-clipped");
+        $('.modal').removeClass("is-active");
+      });
+
+
   });
+
