@@ -1,6 +1,6 @@
   
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,46 +20,7 @@
 
     gtag('config', 'UA-133165680-1');
     </script>
-<!-- Start of Async Drift Code -->
-<script>
-    "use strict";
-    
-    !function() {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-        t.factory = function(e) {
-          return function() {
-            var n = Array.prototype.slice.call(arguments);
-            return n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-          var i = document.getElementsByTagName("script")[0];
-          i.parentNode.insertBefore(o, i);
-        };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('fa9xivb8r35m');
-    </script>
-    <!-- End of Async Drift Code -->
-
-    {{ with .Params.meta_title }}
-    <title>{{ . }}</title>
-    {{ else }}
-    <title>{{ .Site.Data.profile.meta_title }}</title>
-    {{ end }}
-    {{ with .Params.search_engine_optimization.meta_description }}
-    <meta name="description" content="{{ . }}">
-    {{ else }}
-    <meta name="description" content="{{ .Site.Data.profile.meta_description }}">
-    {{ end }}
-
+    {{ partial "seo.html" . }}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <script src="https://kit.fontawesome.com/2dac2bfc0f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/slick.css"/>
