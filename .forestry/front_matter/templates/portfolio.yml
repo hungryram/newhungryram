@@ -49,3 +49,5 @@ fields:
   type: tag_list
   default: []
   label: Projects
+pages:
+- content/customers/corwink-cosmetics.md
