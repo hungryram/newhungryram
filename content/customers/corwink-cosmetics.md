@@ -1,7 +1,7 @@
 +++
 client_name = "Corinne R."
 date = 2020-08-03T07:00:00Z
-featured_image = "/uploads/corwink-png.PNG"
+featured_image = "/uploads/corwink.png"
 projects = ["Ecommerce"]
 review = "I'm a brand new business owner and the site came out exactly how I wanted! I've already received multiple sales and received positive feedback about my site. I'm so happy thank you!"
 short_description = ""
