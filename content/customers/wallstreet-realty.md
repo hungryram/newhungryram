@@ -4,13 +4,13 @@ client_name = "John Pagani"
 date = 2018-03-15T07:00:00Z
 date_completed = "2019-02-01T08:00:00.000+00:00"
 description = "John is the broker of Wallstreet Realty and manages a team of 20 agents in Whittier, CA. John was unhappy with the previous web provider and decided to trust me in building his site. After successfully building his broker site, we decided to move forward with a recruitment website built using my new system using Jamstack."
-featured_image = "/uploads/shutterstock_150649961.jpg"
+featured_image = "/uploads/wallstrealty2.png"
 gallery = ["/uploads/what_for_sec_inner_img.jpg", "/uploads/wallstlogo1.png", "/uploads/john2.jpg"]
 portfolio = ["Real Estate", "Broker"]
 projects = ["Real Estate", "Broker"]
 review = "Our partnership has always been professional and valuable. The team is very responsive and gets things done faster than expected. I'm so glad I made the switch from my other website provider because now my site is always updated. Thank you Ram!"
 title = "Wallstreet Realty"
-website_link = "https://wallstrealty.com"
+website_link = "https://www.wallstrealty.com"
 
 +++
 We at Hungry Ram love working with people who always look to grow their business in the digital world.
