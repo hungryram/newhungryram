@@ -4,13 +4,13 @@ client_name = "Yoori Park"
 date = 2019-10-17T07:00:00Z
 date_completed = "2020-05-01T07:00:00.000+00:00"
 description = "Yoori Park is a Los Angeles Realtor focusing on luxury homes. She's featured on HGTV and has a long reputation in being a successful Realtor."
-featured_image = "/uploads/yooripark2.jpg"
+featured_image = "/uploads/yooripark-1.jpg"
 gallery = ["/uploads/yooriparklogomain-1024x866.png", "/uploads/yooriparkagent.png", "/uploads/unnamed.jpg"]
 portfolio = ["Real Estate"]
 projects = ["Real Estate"]
 review = "Ram is so efficient with my website. I'm so happy to be working with him and I can't see my site being managed anywhere else. He was able to always upgrade my website without having me ask."
 title = "Yoori Park Luxury Estates"
-website_link = "https://yooripark.com"
+website_link = "https://www.yooripark.com"
 
 +++
 Yoori Park is featured on HGTV on Rock the Block. With over 18 years of training and experience in both sales and customer service, she is not only results-oriented but also deeply values building rapport with each and every one of her clients.
