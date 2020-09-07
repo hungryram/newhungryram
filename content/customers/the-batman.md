@@ -1,6 +1,6 @@
 +++
 client_name = ""
-date = ""
+date = 2020-08-27T07:00:00Z
 featured_image = "/uploads/batman2.png"
 projects = ["Concept Design"]
 review = ""
