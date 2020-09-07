@@ -1,7 +1,7 @@
 +++
 client_name = ""
 date = 2020-08-14T07:00:00Z
-featured_image = ""
+featured_image = "/uploads/wonderwoman.png"
 projects = ["Website Concept"]
 review = ""
 short_description = ""
