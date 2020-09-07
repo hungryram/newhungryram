@@ -31,6 +31,10 @@ body .content h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+.content a {
+    color: #D5465F;
+    text-decoration: underline;
+}
 
 body {
     overflow:hidden;
