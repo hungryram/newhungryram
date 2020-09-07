@@ -22,6 +22,15 @@ body h6.subtitle{
     color: rgb(60, 72, 86);
 }
 
+body .content h1,
+body .content h2,
+body .content h3,
+body .content h4,
+body .content h5,
+body .content h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
 
 body {
     overflow:hidden;

@@ -13,11 +13,18 @@
     <div class="container">
         <div class="columns is-variable is-8">
             <div class="column is-8 content portfolio-content">
+                {{ if .Params.featured_image }}
+                <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+                {{ end }}
+                <br>
+                <br>
                 {{ .Content }}
+                {{ if .Params.review }}
                 <div class="single-review mt-6 mb-6">
                     <h4 class="title is-4 is-size-6-mobile">"{{ .Params.review }}"</h4>
                     <p>{{ .Params.client_name }}</p>
                 </div>
+                {{ end }}
                 <div class="portfolio-cta pt-6
                 ">
                     <p>Want to improve your website performance and speed? Get in touch and see how JAMstack can benefit you.</p>
@@ -25,15 +32,21 @@
                 </div>
             </div>
             <div class="column content portfolio-right">
+                <div class="fb-like" data-href="https://www.facebook.com/HungryRam/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+
+                {{ if .Params.client_name }}
                 <div class="portfolio-content">
                     <h4 class="subtitle is-6">Client</h4>
                     <p>{{ .Params.client_name }}</p>
                 </div>
+                {{ end }}
                 <div class="portfolio-content">
                     <h4 class="subtitle is-6">Project Completed</h4>
                     <time>{{.Date.Format "Jan 2, 2006" }}</time><br><br>
+                    {{ if .Params.website_link}}
                     <h4 class="subtitle is-6">Website Link</h4>
                     <a href="{{ .Params.website_link }}" target="_blank" style="color: #000">Visit Website</a>
+                    {{ end }}
                     <div id="share-buttons"> 
                         <h3 class="subtitle is-5">Share this Case Study</h3>
                
