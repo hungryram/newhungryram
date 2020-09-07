@@ -8,41 +8,49 @@
                 <p>See how companies and businesses trust us to help them grow in the digital world.</p>
             </div>
         </div>
-        <div class="columns">
-            <div class="column">
-              <ul class="project-list">
-                <li><a href="/customers">All Projects</a></li>
-                {{ range $name, $taxonomy := .Site.Taxonomies.projects }}
-              <li>
-                <a href="/projects/{{ $name | urlize }}" style="margin: 0 5px">{{ $name | humanize }}</a>
-              </li>
-              {{end}}
-        
-              <li>
-            </ul>
-            </div>
-        </div>
-        <div class="columns is-multiline">
-            {{ range .Pages }}
-            <div class="column is-4 case-container-list">
-                <div class="card case-study-container" style="margin: 10px; height: 100%;">
-                    <a href="{{ .Permalink }}">
-                    <div class="case-image-container">
-                        <div class="card-content case-bg" style="background: url({{ if .Params.featured_image }}{{ .Params.featured_image }}{{else}}https://www.hungryram.com/uploads/nophotohouse.jpg{{ end }});height: 30vh;position:relative;background-size:cover;background-position:center">
-                    </div>
-                  </div>
-                    <footer class="card-footer">
-                      <div class="card-content">
-                        <h2 class="subtitle is-5">{{ .Title }}</h2>
-                        <p class="blog-summary">{{ .Params.short_description }}</p><a href="{{ .Permalink }}" class="second-btn">Read Case Study</a>
-                      </div>
-                    </footer>
-                  </a>
-                  </div>
-            </div>
-            {{ end }}
-        </div>
     </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <ul class="project-list">
+          <li><a href="/customers" class="is-size-6">All Projects</a></li>
+          {{ range $name, $taxonomy := .Site.Taxonomies.projects }}
+        <li>
+          <a href="/projects/{{ $name | urlize }}" class="is-size-6">{{ $name | humanize }}</a>
+        </li>
+        {{end}}
+  
+        <li>
+      </ul>
+      </div>
+  </div>
+</div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range .Pages }}
+      <div class="column is-4 case-container-list">
+          <div class="card case-study-container" style="margin: 10px; height: 100%;">
+              <a href="{{ .Permalink }}">
+              <div class="case-image-container">
+                  <div class="card-content case-bg" style="background: url({{ if .Params.featured_image }}{{ .Params.featured_image }}{{else}}https://www.hungryram.com/uploads/nophotohouse.jpg{{ end }});height: 30vh;position:relative;background-size:cover;background-position:center">
+              </div>
+            </div>
+              <footer class="card-footer">
+                <div class="card-content">
+                  <h2 class="subtitle is-5">{{ .Title }}</h2>
+                  <p class="blog-summary">{{ .Params.short_description }}</p><a href="{{ .Permalink }}" class="second-btn">Read Case Study</a>
+                </div>
+              </footer>
+            </a>
+            </div>
+      </div>
+      {{ end }}
+  </div>
+  </div>
 </div>
 
 {{ end }}

@@ -22,9 +22,6 @@ body h6.subtitle{
     color: rgb(60, 72, 86);
 }
 
-main {
-    padding: 40px 30px;
-}
 
 body {
     overflow:hidden;
@@ -83,10 +80,6 @@ li {
     line-height: 36px;
     font-family: 'Poppins', sans-serif;
 
- }
-
- body p {
-    line-height: 1.785em;
  }
 
  /* CUSTOMERS */
@@ -276,6 +269,7 @@ a.theme-btn {
     background: transparent;
     border: 1px solid #D5465F;
     padding: 5px 7px;
+    width: 100%;
     color: #000;
     border-radius: 50px;
     transition: all .2s ease-in-out;

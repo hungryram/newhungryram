@@ -40,11 +40,13 @@
                                     </div>
                                 </div>
                                 <div class="column">
-                                    <div class="button-wrap">
-                                        <ul>
-                                            <li><a href="{{ .Permalink }}" class="theme-btn">Select</a></li>
-                                            <li><a href="{{ .Params.preview }}" target="_blank" class="preview-btn">Preview</a></li>
-                                        </ul>
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <a href="{{ .Permalink }}" class="theme-btn">Select</a>
+                                        </div>
+                                        <div class="column">
+                                            <a href="{{ .Params.preview }}" target="_blank" class="preview-btn">Preview</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
