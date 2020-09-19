@@ -50,6 +50,7 @@ fields:
   default: []
   label: Projects
 pages:
+- content/customers/beauty-hydration.md
 - content/customers/black-panther.md
 - content/customers/corwink-cosmetics.md
 - content/customers/faroe-island-concept.md
