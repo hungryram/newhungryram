@@ -11,7 +11,7 @@ website_link = "https://beautyhydration.com"
 +++
 ### Overview
 
-Beauty Hydration is a new medical spa business in Los Angeles, a complete lifestyle brand that caters to beauty and wellness. Shelley reached out to me after having complications with her previous website designer. The site was not done after 5 months and Shelley was referred to me by [Yoori](https://www.hungryram.com/customers/yoori-park).
+Beauty Hydration is a new medical spa business in Los Angeles, a complete lifestyle brand that caters to beauty and wellness. Shelley reached out to me after having complications with her previous website designer. The site was not done after 5 months and Shelley was referred to me by [Yoori](https://www.hungryram.com/customers/yoori-park-luxury-estates/).
 
 ### The Design
 
