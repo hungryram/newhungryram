@@ -2,7 +2,7 @@
 client_name = "Carly Kalbrunner"
 date = 2020-08-20T07:00:00Z
 featured_image = "/uploads/ckdesignsnew.png"
-projects = ["Interior Design"]
+projects = ["Interior Design", "Small Business"]
 review = "Ram helped me save money from my previous designer and still kept up with SEO. I've been getting plenty of leads and love how he always make updates to my website."
 short_description = ""
 title = "CK Kitchens and Designs"
