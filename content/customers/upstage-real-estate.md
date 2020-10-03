@@ -2,6 +2,8 @@
 client_name = "Rob Spencer"
 date = 2020-08-28T07:00:00Z
 featured_image = "/uploads/upstagerealestate.png"
+meta_description = "Upstage Real Estate is from Arkansas and came to Hungry Ram for a website design for real estate without IDX."
+meta_title = "Upstage Real Estate Website Design by Hungry Ram"
 projects = ["Broker", "Real Estate"]
 review = "Ram was incredibly fast with the website. He was able to complete my site in less than 24 hours. Super responsive. Amazing work!"
 short_description = ""
