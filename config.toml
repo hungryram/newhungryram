@@ -2,11 +2,6 @@ baseURL = "https://hungryram.com/"
 languageCode = "en-us"
 summaryLength = 10
 [[menu.main]]
-name = "Templates"
-parent = "Websites"
-url = "/templates"
-weight = 3
-[[menu.main]]
 name = "Custom Websites"
 parent = "Websites"
 url = "/jamstack-website-design"
