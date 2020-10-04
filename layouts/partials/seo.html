@@ -1,51 +1,59 @@
-{{ $seoProfile := .Site.Data.profile }}
-{{ $logo := .Site.Data.design.logo.logo }}
-{{ $pageConfigSeo := .Site.Data.pageconfig }}
-
+{{ $seo := .Site.Data.profile }}
+{{ $logo := .Site.Data.design.branding.logo }}
 <!-- OPEN GRAPH -->
-    <meta property="og:url" content="{{ .Permalink }}" />
-{{ if $.IsHome }}
-    <meta property="og:image" content="{{ $logo | absURL }}" />
-    <meta property="og:title" content="{{ $seoProfile.meta_title }}" />
-    <meta property="og:description" content="{{ $seoProfile.meta_description }}" />
-    <meta property="og:type" content="website" />
-{{ else if eq .RelPermalink "/contact/" }}
-    <meta property="og:image" content="{{ $logo | absURL }}" />
-    <meta property="og:title" content="{{ $pageConfigSeo.contact_page.meta_title }}" />
-    <meta property="og:description" content="{{ $pageConfigSeo.contact_page.meta_description }}" />
-    <meta property="og:type" content="website" />
-{{ else if eq .RelPermalink "/products/" }}
-    <meta property="og:image" content="{{ $logo | absURL }}" />
-    <meta property="og:title" content="{{ $pageConfigSeo.product_page.meta_title }}" />
-    <meta property="og:description" content="{{ $pageConfigSeo.product_page.meta_description }}" />
-    <meta property="og:type" content="website" />
-{{ else if eq .RelPermalink "/blog/" }}
-    <meta property="og:image" content="{{ $logo | absURL }}" />
-    <meta property="og:title" content="{{ $pageConfigSeo.blog_page.meta_title }}" />
-    <meta property="og:description" content="{{ $pageConfigSeo.blog_page.meta_description }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{- if $.IsHome -}}
+    <meta property="og:image" content="{{ $logo | absURL }}"/>
+    <meta property="og:title" content="{{ $seo.meta_title }}"/>
+    <meta property="og:description" content="{{ $seo.meta_description }}"/>
     <meta property="og:type" content="website" />
 {{ else }}
-    <meta property="og:image" content="{{ if .Params.gallery }}{{ index .Params.gallery 0 |absURL }}{{ else }}{{ .Params.featured_image | absURL }}{{ end }}">
-    <meta property="og:title" content="{{ if $.Params.meta_title }}{{ $.Params.meta_title }}{{ end }}" />
-    <meta property="og:description" content="{{ if $.Params.meta_description }}{{ $.Params.meta_description }}{{ end }}" />
-    <meta property="og:type" content="{{ if .Params.featured_image }}article{{ else }}website{{ end }}" />
-{{ end }}
+    {{ with "/uploads/newlogo.png" }}
+        <meta property="og:image" content="{{ . | absURL }}">
+    {{ end }}
+    {{- with .Params.meta_title | default .Params.search_engine_optimization.meta_title | default .Params.meta_title -}}
+        <meta property="og:title" content="{{ . }}"/>
+    {{- end }}
+    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description }}
+        <meta property="og:description" content="{{ . }}" />
+    {{- end }}
+        <meta property="og:type" content="{{ if in .Permalink "blog" }}article{{ else }}website{{ end }}"/>
+{{- end -}}
 <!-- END OPEN GRAPH -->
 
 <!-- BEGIN SEO -->
-{{ if $.IsHome }}
-    <title>{{ $seoProfile.meta_title }}</title>
-    <meta name="description" content="{{ $seoProfile.meta_description }}">
-{{ else if eq .RelPermalink "/faq/" }}
-    <title>{{ $pageConfigSeo.faq_page.meta_title }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.faq_page.meta_description }}">
-{{ else if eq .RelPermalink "/blog/" }}
-    <title>{{ $pageConfigSeo.blog_page.meta_title }}</title>
-    <meta name="description" content="{{ $pageConfigSeo.blog_page.meta_description }}">
-{{ else if $.Params.meta_title }}
-    <title>{{ $.Params.meta_title }}</title>
-    <meta name="description" content="{{ $.Params.meta_description }}">
+{{- if $.IsHome -}}
+    <title>{{ $seo.meta_title | default .Params.meta_title }}</title>
+    <meta name="description" content="{{ $seo.meta_description }}">
 {{ else }}
-    <title>{{ $.Site.Data.profile.meta_title }}</title>
-    <meta name="description" content="{{ $.Site.Data.profile.meta_description }}">
-{{ end }}
+    {{ with .Params.meta_title | default .Params.search_engine_optimization.meta_title | default .Params.meta_title }}
+    <title>{{ . }}</title>
+    {{ end }}
+    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+{{- end -}}
+
+{{- if $.IsHome -}}
+<script type='application/ld+json'>
+    {
+      "@context": "http://www.schema.org",
+      "@type": "Organization",
+      "name": "Hungry Ram",
+      "url": "https://www.hungryram.com/",
+      "sameAs": [
+         "https://www.instagram.com/hungry_ram/",
+         "https://www.facebook.com/HungryRam/"
+      ],
+      "logo": "https://www.hungryram.com/uploads/newlogo.png",
+      "description": "{{ .Site.Data.profile.meta_description }}",
+      "address": {
+         "@type": "PostalAddress",
+         "addressLocality": "Yorba Linda",
+         "addressRegion": "California ",
+         "postalCode": "92886",
+         "addressCountry": "United States"
+      }
+    }
+    </script>
+    {{ end }}
