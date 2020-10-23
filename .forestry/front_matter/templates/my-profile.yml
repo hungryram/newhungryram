@@ -106,5 +106,10 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+- name: company_name
+  type: text
+  config:
+    required: false
+  label: Company Name
 pages:
 - data/profile.yaml
