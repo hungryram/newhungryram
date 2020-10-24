@@ -2,12 +2,12 @@
     <div class="container">
         <div class="columns">
             <div class="column">
-                <h1 class="title is-3">Our Amazing <span style="color:#D5465F">Clients</span></h1>
-                <p>Establishing a professional relationship with clients across the nation.</p>
+                <h1 class="title is-3">Our Amazing <span style="color:#D5465F">Clients</span> and Projects</h1>
+                <p>Establishing a professional relationship with clients across the nation. See more of our projects <a href="/customers" style="color: #D5465F">here</a></p>
             </div>
         </div>
         <div class="responsive">
-            {{ range (where $.Site.RegularPages "Type" "customers") }}
+            {{ range shuffle (where $.Site.RegularPages "Type" "customers") | first 4 }}
             <div class="card case-study-container" style="margin: 10px; height: 100%;">
                 <a href="{{ .Permalink }}">
                 <div class="case-image-container">
