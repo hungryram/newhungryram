@@ -1,0 +1,28 @@
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title is-3">Our Amazing <span style="color:#D5465F">Clients</span></h1>
+                <p>Establishing a professional relationship with clients across the nation.</p>
+            </div>
+        </div>
+        <div class="responsive">
+            {{ range (where $.Site.RegularPages "Type" "customers") }}
+            <div class="card case-study-container" style="margin: 10px; height: 100%;">
+                <a href="{{ .Permalink }}">
+                <div class="case-image-container">
+                    <div class="card-content case-bg" style="background: url({{ if .Params.featured_image }}{{ .Params.featured_image }}{{ end }});height: 30vh;position:relative;background-size:cover;background-position:center">
+                </div>
+              </div>
+                <footer class="card-footer">
+                  <div class="card-content">
+                    <h2 class="title is-5">{{ .Title }}</h2>
+                    <p class="blog-summary">{{ .Params.short_description }}</p><a href="{{ .Permalink }}" class="second-btn">View Project</a>
+                  </div>
+                </footer>
+              </a>
+              </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

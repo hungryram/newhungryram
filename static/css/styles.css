@@ -6,9 +6,8 @@ body h3.title,
 body h4.title,
 body h5.title,
 body h6.title{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    color: rgb(60, 72, 86);
+    font-family: 'Noto Serif', serif;
+    color: rgb(50, 63, 79);
 }
 
 body h1.subtitle,
@@ -17,9 +16,9 @@ body h3.subtitle,
 body h4.subtitle,
 body h5.subtitle,
 body h6.subtitle{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #D5465F;
     text-transform: uppercase;
-    color: rgb(60, 72, 86);
 }
 
 body .content h1,
@@ -28,7 +27,7 @@ body .content h3,
 body .content h4,
 body .content h5,
 body .content h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 .content a {
@@ -39,14 +38,23 @@ body {
     overflow:hidden;
 }
 
-.main-btn {
+a.main-btn,
+button.main-btn {
     background: #D5465F;
     padding: 15px 50px;
     border: 0;
     color: #fff;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    transition: .3s ease;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+a.main-btn:hover,
+button.main-btn:hover {
+    background: transparent;
+    border: 1px solid #D5465F;
+    color: #D5465F;
+    transition: .3s ease;
 }
 
 div.package .main-btn {
@@ -60,19 +68,17 @@ div.package .main-btn {
 }
 
 a.second-btn {
-    font-family: 'Oswald', sans-serif;
     padding: 0;
     border-right: 0;
     border-left: 0;
     border-top: 0;
     border-radius: 0;
     transition: all .2s ease-in-out;
-    text-transform: uppercase;
     color:#aaaaaa;
 }
 
 a.view-more {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Serif', serif;
     color: #000;
     z-index: 100;
     font-size: 20px;
@@ -82,7 +88,7 @@ a,
 li,
 time,
 small {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: inherit;
     line-height: inherit;
  }
@@ -90,9 +96,9 @@ small {
  body p {
     /* color: #6e7882; */
     color:rgb(83, 97, 113);
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 36px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mulish', sans-serif;
 
  }
 
@@ -150,18 +156,25 @@ a.hero-cta {
     color: #fff;
     padding: 20px 50px;
     border-radius: 50px;
+    transition: .3s;
     box-shadow: 3px 7px 20px 0px #e699a6;
+}
+
+a.hero-cta:hover {
+    background: transparent;
+    border: 1px solid #D5465F;
+    transition: .3s;
+    color: #D5465F;
 }
 
 div.hero-body h1.title {
     font-size: 3rem;
     margin-bottom: 50px;
-    color: rgb(60, 72, 86);
+    color: #000000;
 }
 
 div.hero-body h1,
 div.hero-body p {
-    line-height: 1.5;
     font-size: 1.2rem;
     color: rgb(60, 72, 86);
 }
@@ -182,6 +195,10 @@ div.hero-body p {
 
 /* MENU */
 
+nav.navbar {
+    box-shadow: 0px 13px 17px #dadada;
+}
+
 a.create-account {
     background-color: #D5465F;
     color: #fff;
@@ -194,7 +211,7 @@ a.demo {
 }
 
 .navbar-brand h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-weight: 800;
     text-transform: uppercase;
     font-size: 24px;

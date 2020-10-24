@@ -1,19 +1,36 @@
 <div class="section">
     <div class="container">
-        <div class="columns">
+        <div class="columns is-vcentered">
             <div class="column">
-                <div class="box">
-                    <h6 class="title is-6">Experience the power of static sites</h6>
-                    <p>Eliminating database will make your website perform at optimal speeds, creating a better user experience</p>
+                <div class="home-form">
+                <h2 class="title is-4">Join the <span style="color:#D5465F">JAMstack</span> revolution.</h2>
+                <p class="mb-5">Ready to get ahead of the game? Let's start building your JAMstack website</p>
+                    <form name="Home Form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <input name="bot-field" type="hidden" />
+                        <input type="hidden" name="subject" value="Home form" />
+                        <div class="field">
+                            <div class="control">
+                              <input class="input" type="text" placeholder="Your Name" name="name">
+                            </div>
+                          </div>
+                    <div class="field">
+                        <div class="control">
+                          <input class="input" type="email" placeholder="Your Email" name="email" required>
+                        </div>
+                      </div>
+                      <div class="field">
+                        <div class="control">
+                          <textarea class="textarea" placeholder="Discuss your project" name="message" required></textarea>
+                        </div>
+                      </div>
+                      
+                      <div class="field is-grouped">
+                        <div class="control">
+                          <button class="main-btn">Submit</button>
+                        </div>
+                      </div>
+                      </form>
                 </div>
-                <div class="box">
-                  <h6 class="title is-6">Optimize your ranking for Search Engines</h6>
-                  <p>With a website performing at optimal speed, we'll need to make sure that search engines are seeing the improvements</p>
-              </div>
-              <div class="box">
-                  <h6 class="title is-6">Grow your brand</h6>
-                  <p>Wow your visitors with a modern website design focused on user experience and easy editing to scale your business</p>
-              </div>
             </div>
             <div class="column">
               <img src="/uploads/time.png" alt="">
