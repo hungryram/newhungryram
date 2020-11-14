@@ -16,11 +16,6 @@ fields:
     date_format: MM/DD/YYYY
     time_format: 
     display_utc: false
-- name: image_alt_tag
-  type: text
-  config:
-    required: false
-  label: Image Alt Tag
 - name: categories
   type: tag_list
   default: []
@@ -30,6 +25,11 @@ fields:
   config:
     maxSize: 64
   label: Featured Image
+- name: image_alt_tag
+  type: text
+  config:
+    required: false
+  label: Image Alt Tag
 - name: search_engine_optimization
   type: include
   config: {}
