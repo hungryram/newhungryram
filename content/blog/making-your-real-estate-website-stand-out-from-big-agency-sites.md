@@ -12,7 +12,7 @@ This post is to outline how I can help make your real estate website stand out w
 
 ##### Websites from the big players
 
-There are so many real estate websites out there that are built by big agencies such as Agent Image and Luxury Presence. They are big players in the web design for the real estate industry and I have to admit, their designs are outstanding.
+There are so many real estate websites out there that are built by big agencies such as [Agent Image](https://www.agentimage.com/) and [Luxury Presence](). They are big players in the web design for the real estate industry and I have to admit, their designs are outstanding.
 
 There is just one thing they have in common for their web design. It both runs on database.  But don't you need a database to have a fully functioning website?! Nope.
 
@@ -24,9 +24,9 @@ Anybody can create a beautiful design and a great design can be visually appeali
 
 ##### Enter JAMstack
 
-JAMstack is the new modern way to web development. Note the word development instead of design. While most web designers rely on website builders such as Wix, Squarespace, and Wordpress. JAMstack developers code from the ground up.
+JAMstack is the new modern way to web development. Note the word development instead of design. While most web designers rely on website builders such as [Wix](https://www.wix.com/), [Squarespace](https://www.squarespace.com/), and [Wordpress](). JAMstack developers code from the ground up.
 
-Is it more time consuming? Sometimes... it really depends on the experience of the developer. But why is this better? JAMstack provides better performance, security, better scaling, and better experience for us developers and programmers. We also have control of what resources the website uses so there is no bloat to the website to slow it down. 
+Is it more time consuming? Sometimes... it really depends on the experience of the developer. But why is this better? JAMstack provides better performance, security, better scaling, and better experience for us developers and programmers. We also have control of what resources the website uses so there is no bloat to the website to slow it down.
 
 ##### Let's make your site stand out
 
