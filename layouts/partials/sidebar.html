@@ -18,10 +18,10 @@
 </div>
 
 <h2 class="subtitle is-6">Blog Categories</h2>
-<ul>
+<ul class="content">
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
   <li>
-    <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/categories{{ $name | urlize | relURL }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
+    <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/categories{{ $name | urlize | relURL }}">{{ $name | humanize }}</a>
   </li>
   {{end}}
 
