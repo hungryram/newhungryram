@@ -66,6 +66,8 @@ sections:
   label: Policies
   create: documents
   match: "**/*"
+  templates:
+  - legal
 upload_dir: hungryram
 public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
