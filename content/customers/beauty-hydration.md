@@ -2,6 +2,9 @@
 client_name = "Shelley Lashley"
 date = 2020-09-11T07:00:00Z
 featured_image = "/uploads/beautyhydration.png"
+image_alt_tag = "Medspa website design"
+meta_description = ""
+meta_title = ""
 projects = ["ecommerce", "medspa", "Small Business"]
 review = "I fired my web designer who took 5 months for the site. I found Ram through a referral and he completed my site in 2 weeks! He's very knowledgeable and helped me save $200 per month by doing some research on tools I needed."
 short_description = ""
