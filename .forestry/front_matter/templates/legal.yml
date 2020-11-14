@@ -17,3 +17,5 @@ fields:
   config: {}
   template: seo
   label: SEO
+pages:
+- content/legal/privacy-policy.md
