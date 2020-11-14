@@ -1,36 +1,46 @@
 {{ $seo := .Site.Data.profile }}
 {{ $profile := .Site.Data.profile.company_name }}
 {{ $logo := .Site.Data.design.logo.logo }}
-
 {{ $bodyDesc := .Params.body | truncate 170 }}
 <!-- OPEN GRAPH -->
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="{{ $logo }}">
+<meta property="og:site_name" content="{{ $profile }}" />
+<meta property="og:locale" content="en_US" />
+{{- if .Params.Date -}}
+<meta property="article:published_time" content="{{ .Date }}" />
+{{ end }}
+{{- with .Params.featured_image | default $logo -}}
+<meta property="og:image" content="{{ $.Site.Params.cloudinary_url }}{{ . }}"/>
+{{ end }}
 
-{{- if $.IsHome -}}
-    <meta property="og:image" content="{{ $logo | absURL }}"/>
+{{- if .Params.author -}}
+{{- with .Site.GetPage .Params.author -}}
+<meta property="article:author" content="{{ .Permalink }}" />
+{{ end }}
+{{ end }}
+
+{{ if $.IsHome }}
     <meta property="og:title" content="{{ $seo.meta_title }}"/>
     <meta property="og:description" content="{{ $seo.meta_description }}"/>
     <meta property="og:type" content="website" />
 {{ else }}
 
-    {{- with .Params.meta_title | default .Params.search_engine_optimization.meta_title -}}
-        <meta property="og:title" content="{{ . }}"/>
-    {{ else }}
-        <meta property="og:title" content="{{ .Params.Title }} - {{ $profile }}"/>
-    {{- end }}
-    {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description }}
-        <meta property="og:description" content="{{ . }}" />
-    {{ else }}
-        <meta property="og:description" content="{{ .Summary | truncate 170 }}" />
-    {{- end }}
-        <meta property="og:type" content="{{ if in .Permalink "blog" }}article{{ else }}website{{ end }}"/>
+{{- with .Params.meta_title | default .Params.search_engine_optimization.meta_title -}}
+<meta property="og:title" content="{{ . }}"/>
+{{ else }}
+<meta property="og:title" content="{{ .Params.Title }} - {{ $profile }}"/>
+{{- end }}
+{{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description }}
+<meta property="og:description" content="{{ . }}" />
+{{ else }}
+<meta property="og:description" content="{{ .Summary | truncate 170 }}" />
+{{- end }}
+<meta property="og:type" content="{{ if in .Permalink "blog" }}article{{ else }}website{{ end }}"/>
 {{- end -}}
 <!-- END OPEN GRAPH -->
 
 <!-- BEGIN SEO -->
 {{- if $.IsHome -}}
-
     <title>{{ $seo.meta_title }}</title>
     <meta name="description" content="{{ $seo.meta_description }}">
 {{ else }}
@@ -39,35 +49,9 @@
     {{ else }}
     <title>{{ .Params.Title }} - {{ $profile }}</title>
     {{ end }}
-
     {{ with .Params.meta_description | default .Params.search_engine_optimization.meta_description | default $bodyDesc  }}
     <meta name="description" content="{{ . }}">
     {{ else }}
     <meta name="description" content="{{ .Summary | truncate 170 }}">
     {{ end }}
 {{- end -}}
-
-{{- if $.IsHome -}}
-<script type='application/ld+json'>
-    {
-      "@context": "http://www.schema.org",
-      "@type": "Organization",
-      "name": "Hungry Ram",
-      "url": "https://www.hungryram.com/",
-      "sameAs": [
-         "https://www.instagram.com/hungry_ram/",
-         "https://www.facebook.com/HungryRam/",
-         "https://www.yelp.com/biz/hungry-ram-yorba-linda"
-      ],
-      "logo": "https://www.hungryram.com/uploads/newlogo.png",
-      "description": "{{ .Site.Data.profile.meta_description }}",
-      "address": {
-         "@type": "PostalAddress",
-         "addressLocality": "Yorba Linda",
-         "addressRegion": "California ",
-         "postalCode": "92886",
-         "addressCountry": "United States"
-      }
-    }
-    </script>
-    {{ end }}
