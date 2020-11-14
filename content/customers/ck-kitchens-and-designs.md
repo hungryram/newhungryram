@@ -2,6 +2,7 @@
 client_name = "Carly Kalbrunner"
 date = 2020-08-20T07:00:00Z
 featured_image = "/uploads/ckdesignsnew.png"
+image_alt_tag = "Modern interior design website"
 meta_description = "Website designed for an interior designer in Georgia by Hungry Ram. The website was custom designed with an architectural themed design."
 meta_title = "CK Designs Kitchen and Bath Website Design by Hungry Ram"
 projects = ["Interior Design", "Small Business"]
