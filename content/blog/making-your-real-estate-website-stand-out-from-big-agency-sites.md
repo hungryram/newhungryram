@@ -1,6 +1,8 @@
 +++
+categories = ["Web design"]
 date = 2020-11-13T08:00:00Z
 featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1605336010/hungryram/idx_qpqe5l.png"
+image_alt_tag = "Modern real estate website design"
 meta_description = "How to establish a real estate online presence different from everybody else. Real estate website design focused on higher performance and security."
 meta_title = ""
 title = "Making your Real Estate Website Stand Out From Big Agency Sites"
