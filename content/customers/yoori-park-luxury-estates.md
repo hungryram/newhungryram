@@ -6,6 +6,7 @@ date_completed = "2020-05-01T07:00:00.000+00:00"
 description = "Yoori Park is a Los Angeles Realtor focusing on luxury homes. She's featured on HGTV and has a long reputation in being a successful Realtor."
 featured_image = "/uploads/yooripark-1.jpg"
 gallery = ["/uploads/yooriparklogomain-1024x866.png", "/uploads/yooriparkagent.png", "/uploads/unnamed.jpg"]
+image_alt_tag = "Luxury Real Estate Web Design"
 meta_description = "Yoori Park is based in Los Angeles and had a website redesign by Hungry Ram. The site is built using HUGO and Forestry.io for content management."
 meta_title = "Yoori Park Luxury Real Estate Web design by Hungry Ram"
 portfolio = ["Real Estate"]
