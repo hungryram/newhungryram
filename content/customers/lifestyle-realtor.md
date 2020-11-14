@@ -6,6 +6,7 @@ date_completed = "2019-12-18T08:00:00.000+00:00"
 description = "Antonio Matier is the broker of Lifestyle, CA. Mainly focusing on luxury real estate, he was looking to have a site up and running as soon as possible."
 featured_image = "/uploads/antoniomatier.jpg"
 gallery = ["/uploads/antonio-matier-profile.jpg", "/uploads/int-1.jpg"]
+image_alt_tag = "California Real Estate Broker Website"
 portfolio = ["Real Estate", "Broker"]
 projects = ["Real Estate", "Broker"]
 review = "Ram worked on my website and delivered all my requests. I am proud to have worked with Ram with the website because most agencies would brush off most of my requests."
