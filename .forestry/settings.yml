@@ -59,6 +59,13 @@ sections:
   match: "**/*"
   templates:
   - blogs
+- type: heading
+  label: Legal
+- type: directory
+  path: content/legal
+  label: Policies
+  create: documents
+  match: "**/*"
 upload_dir: hungryram
 public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
