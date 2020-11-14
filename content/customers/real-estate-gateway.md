@@ -2,6 +2,9 @@
 client_name = "Andrea Ellery"
 date = 2020-07-10T07:00:00Z
 featured_image = "/uploads/andreaellery2.png"
+image_alt_tag = "Real Estate Web Design in California"
+meta_description = ""
+meta_title = ""
 projects = ["Real Estate"]
 review = "I would recommend Ram. The site was built super fast and he was updating my site even after launching to improve it. Thank you so much!"
 short_description = ""
@@ -19,4 +22,4 @@ The website is using the standard website template built for real estate. With a
 
 ### The Result
 
-After launching the website, we integrated IDX which allows listings to automatically pull in. The site ranks over 90 on Google Pagespeed and is being indexed in the Google console. 
+After launching the website, we integrated IDX which allows listings to automatically pull in. The site ranks over 90 on Google Pagespeed and is being indexed in the Google console.
