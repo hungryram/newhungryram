@@ -2,6 +2,7 @@
 client_name = "Ed Bittick"
 date = 2020-10-20T07:00:00Z
 featured_image = "/uploads/pathfinders.png"
+image_alt_tag = "Best Carpet Cleaning Website in Texas"
 meta_description = ""
 meta_title = ""
 projects = ["Small Business"]
