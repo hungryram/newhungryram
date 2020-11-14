@@ -11,13 +11,10 @@
 {{ end }}
 {{- with .Params.featured_image | default $logo -}}
 <meta property="og:image" content="{{ $.Site.Params.cloudinary_url }}{{ . }}"/>
+<meta property="article:author" content="https://www.instagram.com/hungry_ram/" />
 {{ end }}
 
-{{- if .Params.author -}}
-{{- with .Site.GetPage .Params.author -}}
-<meta property="article:author" content="{{ .Permalink }}" />
-{{ end }}
-{{ end }}
+
 
 {{ if $.IsHome }}
     <meta property="og:title" content="{{ $seo.meta_title }}"/>

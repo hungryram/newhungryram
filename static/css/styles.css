@@ -1,4 +1,7 @@
-
+html,
+body {
+    scroll-behavior: smooth;
+}
 
 body h1.title,
 body h2.title,

@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer pb-5">
     <div class="inner-footer">
     <div class="section">
         <div class="container">
@@ -43,27 +43,33 @@
                   </div>
                   <div class="column">
                     <h4 class="title is-4">About</h4>
-                    <p class="is-size-6 has-text-black">Providing JAMstack websites for anyone who wants to get an improved website</p>
+                    <p class="is-size-6 has-text-black">Building JAMstack website for the growing revolution! Move away from traditional websites where all your competitors are stuck at!</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section pb-0 pt-0">
         <div class="container">
             <div class="columns">
                 <div class="column">
                     {{ $footerSocial := .Site.Data.profile.add_social_links }}
                     <ul class="footer-social">
-                        {{ if $footerSocial.facebook }}<li><a href="{{ $footerSocial.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
-                        {{ if $footerSocial.instagram }}<li><a href="{{ $footerSocial.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>{{ end }}
-                        {{ if $footerSocial.linkedin }}<li><a href="{{ $footerSocial.linkedin }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>{{ end }}
-                        {{ if $footerSocial.pinterest }}<li><a href="{{ $footerSocial.pinterest }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>{{ end }}
-                        {{ if $footerSocial.yelp }}<li><a href="{{ $footerSocial.yelp }}" target="_blank" title="Yelp"><i class="fab fa-yelp"></i></a></li>{{ end }}
+                        {{ if $footerSocial.facebook }}<li class="mx-2"><a href="{{ $footerSocial.facebook }}" target="_blank" title="Facebook"><img src="/assets/facebook.svg" alt="" width="30"></a></li>{{ end }}
+                        {{ if $footerSocial.instagram }}<li class="mx-2"><a href="{{ $footerSocial.instagram }}" target="_blank" title="Instagram"><img src="/assets/instagram.svg" alt="" width="30"></a></li>{{ end }}
+                        {{ if $footerSocial.linkedin }}<li class="mx-2"><a href="{{ $footerSocial.linkedin }}" target="_blank" title="Linkedin"><img src="/assets/linkedin.svg" alt="" width="30"></a></li>{{ end }}
+                        {{ if $footerSocial.pinterest }}<li class="mx-2"><a href="{{ $footerSocial.pinterest }}" target="_blank" title="Pinterest"><img src="/assets/pinterest.svg" alt="" width="30"></a></li>{{ end }}
+                        {{ if $footerSocial.yelp }}<li class="mx-2"><a href="{{ $footerSocial.yelp }}" target="_blank" title="Yelp"><img src="/assets/yelp.svg" alt="" width="30"></a></li>{{ end }}
+                        {{ if $footerSocial.twitter }}<li class="mx-2"><a href="{{ $footerSocial.twitter }}" target="_blank" title="Yelp"><img src="/assets/twitter.svg" alt="" width="30"></a></li>{{ end }}
                       </ul>
                 </div>
             </div>
         </div>
     </div>
+    <ul class="has-text-centered">
+      {{ range where $.Site.RegularPages "Type" "legal" }}
+        <li class="is-inline mr-2"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
 </div>
 </footer>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

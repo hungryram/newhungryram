@@ -8,7 +8,7 @@
                 <h1 class="title is-1">{{.Title}}</h1>
 
                 <div class="content">
-                    <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="blog-featured-img">
+                    <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}" class="blog-featured-img">
                     <div class="field-content content">
                         {{ .Content }}
                     </div>
@@ -18,21 +18,58 @@
            
                     <!-- Email -->
                     <a href="mailto:?Subject=Check%20Out%20This%20Blog&amp;Body=Check%20out%20this%20blog%20from%20{{ .Permalink | absURL }}">
-                      <i class="far fa-envelope"></i>
+                      <img src="/assets/envelope.svg" alt="" width="25">
                     </a>    
                     <!-- Facebook -->
                     <a href="http://www.facebook.com/sharer.php?u={{ .Permalink | absURL }}" target="_blank">
-                      <i class="fab fa-facebook-f"></i>
+                      <img src="/assets/facebook.svg" alt="" width="25">
+
                     </a>     
                     <!-- LinkedIn -->
                     <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink | absURL }}" target="_blank">
-                      <i class="fab fa-linkedin-in"></i>
+                      <img src="/assets/linkedin.svg" alt="" width="25">
                     </a>       
                     <!-- Twitter -->
                     <a href="https://twitter.com/share?url={{ .Permalink | absURL }}&amp;text=Check%20out%20this%20blog%20from%20{{ .Site.Data.profile.logo_and_title.website_title }}" target="_blank">
-                      <i class="fab fa-twitter"></i>
+                      <img src="/assets/twitter.svg" alt="" width="25">
                     </a>
                 </div> <!-- end share buttons -->
+                <div class="mt-6">
+                  <h2 class="title is-4">Send an email</h2>
+                  <form name="blog contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input name="bot-field" type="hidden" />
+                    <input type="hidden" name="subject" value="contact form" />
+                    <div class="field">
+                        <div class="control">
+                          <input class="input" type="text" placeholder="Your Name" name="name">
+                        </div>
+                      </div>
+                <div class="field">
+                    <div class="control">
+                      <input class="input" type="email" placeholder="Your Email" name="email" required>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Discuss your project or ask a question!" name="message" required></textarea>
+                    </div>
+                  </div>
+                  
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="main-btn">Submit</button>
+                    </div>
+                  </div>
+                  <div class="field mt-5">
+                    <div class="control content">
+                      <label class="checkbox">
+                        <input type="checkbox" required name="consent form">
+                        <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                      </label>
+                    </div>
+                  </div>
+                  </form>
+                </div>
             </div>
             <div class="column">
                 {{ partial "sidebar.html" . }}
