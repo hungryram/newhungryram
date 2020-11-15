@@ -24,6 +24,10 @@ body h6.subtitle{
     text-transform: uppercase;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 body .content h1,
 body .content h2,
 body .content h3,
