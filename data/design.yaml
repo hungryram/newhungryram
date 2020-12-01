@@ -1,12 +1,15 @@
 ---
 hero:
   hero_image: ''
-  hero_title: 
-  hero_subtitle: Let us take your website to the next level with modern development structure. Try the JAMstack approach to get ranked higher and improve performance for your visitors
+  hero_title: ''
+  hero_subtitle: Let us take your website to the next level with modern development
+    structure. Try the JAMstack approach to get ranked higher and improve performance
+    for your visitors
 logo:
   logo: "/uploads/hungryramlogo2020.png"
   logo_alt_tag: ''
   company_name: Hungry Ram
+  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
 sub_page_image: ''
 intro_section:
   intro_heading: ''
