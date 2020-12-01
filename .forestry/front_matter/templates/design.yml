@@ -21,6 +21,11 @@ fields:
     config:
       required: false
     label: Company Name
+  - name: favicon
+    type: file
+    config:
+      maxSize: 64
+    label: Favicon
   label: Logo
 - name: hero
   type: field_group
