@@ -31,9 +31,6 @@ welcome:
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
 - image: https://res.cloudinary.com/hungryram19/image/upload/v1608583423/hungryram/karinacrisp_ekuop2.png
   heading: Free Real Estate Website Set Up
-<<<<<<< HEAD
-  link: "/free-site-setup/"
-=======
   link: "/free-set-up"
 - heading: Small Business Websites
   link: "/jamstack-website-design/"
@@ -41,7 +38,6 @@ welcome:
 - heading: How I Build My Websites
   link: "/about"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
->>>>>>> 1d7f3edbc28ce678d22f6d21de07f6509d90816a
 - heading: Contact me
   link: "/contact"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
