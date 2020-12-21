@@ -23,3 +23,15 @@ meta_title: 'Hungry Ram: Improved Web Design Using Modern Tools'
 meta_description: Based in Orange County, specializing in modern development structure
   for the web. Providing the best websites for real estate and small businesses.
 company_name: Hungry Ram
+welcome:
+- links:
+  - {}
+  heading: Visit my Website
+  link: https://hungryram.com
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
+- image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
+  heading: Free Real Estate Website Set Up
+  link: "/free-set-up"
+- heading: Contact me
+  link: "/contact"
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
