@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+        <style>
+            body {
+                height: 100vh;
+                background: url("/assets/bg2.jpg") no-repeat center;
+                background-size:cover;
+            }
+
+            .primary-btn {
+                background: #FC4B74;
+                border: 1px solid #FC4B74;
+                color: #fff;
+                padding: 10px 25px;
+                width: 100%;
+                transition: .3s;
+            }
+
+            .primary-btn:hover {
+                background: transparent;
+                border: 1px solid #FC4B74;
+                color: #000;
+                transition: .3s;
+            }
+
+            .media img {
+                border-radius: 5px;
+            }
+
+            .media {
+                display: flex;
+                align-items: center;
+            }
+
+            .card {
+                background: #fff;
+                border-radius: 5px;
+            }
+
+            .card-content {
+                padding: .5em;
+            }
+
+            .title {
+                font-family: "Inter", sans-serif;
+            }
+
+            body p,
+            body li,
+            body a {
+                color:rgb(83, 97, 113);
+                line-height: 36px;
+                font-family: 'Mulish', sans-serif;
+            
+             }
+        </style>
+        <!-- FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Mulish:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '372514063562316');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=372514063562316&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    </head>
+    <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v8.0',
+          appId            : '333547834415659',
+    
+        });
+      };
+    
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter has-text-centered content">
+                        <img src="{{ $.Site.Data.profile.primary_photo }}" alt="" style="width: 100px;border-radius:50%">
+                        <h1 class="title is-6 mb-0 has-text-white has-text-weight-bold">Ram Dettmer</h1>
+                        <p class="is-size-6 has-text-white">Owner of Hungry Ram</p>
+                        <p class="pb-5 has-text-white">Providing quality built websites through modern design and clean code</p>
+
+                        {{ range $.Site.Data.profile.welcome }}
+                        <a href="{{ .link }}">
+                            <div class="card mt-3">
+                                <div class="card-content">
+                                  <div class="media">
+                                    <div class="media-left">
+                                      <figure class="image is-48x48">
+                                        <img src="{{ .image }}" alt="Placeholder image">
+                                      </figure>
+                                    </div>
+                                    <div class="media-content has-text-left">
+                                      <p class="subtitle is-6 has-text-black">{{ .heading }}</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </a>
+                        {{ end }}
+                        {{ $footerSocial := .Site.Data.profile.add_social_links }}
+                        <h4 class="title is-6 has-text-white mt-6">Let's Connect</h4>
+                        <ul class="mx-0">
+                            {{ if $footerSocial.facebook }}<li class="is-inline mx-1"><a href="{{ $footerSocial.facebook }}" target="_blank" title="Facebook" class="has-text-white">Facebook</a></li>{{ end }}
+                            {{ if $footerSocial.instagram }}<li class="is-inline mx-1"><a href="{{ $footerSocial.instagram }}" target="_blank" title="Instagram" class="has-text-white">Instagram</a></li>{{ end }}
+                            {{ if $footerSocial.linkedin }}<li class="is-inline mx-1"><a href="{{ $footerSocial.linkedin }}" target="_blank" title="Linkedin" class="has-text-white">Linkedin</a></li>{{ end }}
+                            {{ if $footerSocial.pinterest }}<li class="is-inline mx-1"><a href="{{ $footerSocial.pinterest }}" target="_blank" title="Pinterest" class="has-text-white"><img src="/assets/pinterest.svg" alt="" width="25"></a></li>{{ end }}
+                            {{ if $footerSocial.twitter }}<li class="is-inline mx-1"><a href="{{ $footerSocial.twitter }}" target="_blank" title="Yelp" class="has-text-white">Twitter</a></li>{{ end }}
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
