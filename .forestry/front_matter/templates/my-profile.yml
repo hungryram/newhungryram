@@ -114,29 +114,21 @@ fields:
 - name: welcome
   type: field_group_list
   fields:
-  - name: links
-    type: field_group_list
-    fields:
-    - name: heading
-      type: text
-      config:
-        required: false
-      label: Heading
-    - name: link
-      type: text
-      config:
-        required: false
-      label: Link
-    - name: image
-      type: file
-      config:
-        maxSize: 64
-      label: Image
+  - name: heading
+    type: text
     config:
-      min: 
-      max: 
-      labelField: 
-    label: Links
+      required: false
+    label: Heading
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
   config:
     min: 
     max: 
