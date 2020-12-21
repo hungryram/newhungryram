@@ -29,12 +29,12 @@ welcome:
   heading: Visit my Website
   link: https://hungryram.com
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
-- image: https://res.cloudinary.com/hungryram19/image/upload/v1608583423/hungryram/karinacrisp_ekuop2.png
+- image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
   heading: Free Real Estate Website Set Up
   link: "/free-set-up"
 - heading: Small Business Websites
   link: "/jamstack-website-design/"
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1608583395/hungryram/ckdesignsnew_ofc08m.png
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
 - heading: How I Build My Websites
   link: "/about"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
