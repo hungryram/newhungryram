@@ -24,9 +24,9 @@ meta_description: Based in Orange County, specializing in modern development str
   for the web. Providing the best websites for real estate and small businesses.
 company_name: Hungry Ram
 welcome:
-- heading: Small Business Websites
-  link: "/jamstack-website-design/"
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1608583395/hungryram/ckdesignsnew_ofc08m.png
+- heading: How I Build My Websites
+  link: "/about"
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
 - links:
   - {}
   heading: Visit my Website
@@ -35,6 +35,9 @@ welcome:
 - image: https://res.cloudinary.com/hungryram19/image/upload/v1608583423/hungryram/karinacrisp_ekuop2.png
   heading: Free Real Estate Website Set Up
   link: "/free-set-up"
+- heading: Small Business Websites
+  link: "/jamstack-website-design/"
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1608583395/hungryram/ckdesignsnew_ofc08m.png
 - heading: Contact me
   link: "/contact"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1606809089/hungryram/favicon_wbz1ng.jpg
