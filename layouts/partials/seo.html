@@ -9,7 +9,7 @@
 {{- if .Params.Date -}}
 <meta property="article:published_time" content="{{ .Date }}" />
 {{ end }}
-{{- with .Params.featured_image | default $logo -}}
+{{- with .Params.featured_image | default .Site.Data.design.logo.favicon -}}
 <meta property="og:image" content="{{ $.Site.Params.cloudinary_url }}{{ . }}"/>
 <meta property="article:author" content="https://www.instagram.com/hungry_ram/" />
 {{ end }}
