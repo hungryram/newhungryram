@@ -15,7 +15,6 @@ Personal information means any information relating to an identifiable individua
 * Any email address (work or personal)
 * Birth date
 * Home address
-* Social Security number or other government issued form of identification
 
 We may collect personal identification from visitors when visitors and users when they register on the site, subscribe to newsletter, respond to surveys, submitting any forms, or forms given in any type of format such as electronically or hard copy forms.
 
