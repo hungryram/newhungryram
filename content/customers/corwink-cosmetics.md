@@ -1,7 +1,10 @@
 +++
 client_name = "Corinne R."
 date = 2020-08-03T07:00:00Z
-featured_image = "/uploads/corwink.png"
+featured_image = "https://res.cloudinary.com/hungryram19/image/upload/v1627423703/hungryram/corwink4_vgy1zl.png"
+image_alt_tag = ""
+meta_description = ""
+meta_title = ""
 projects = ["Ecommerce"]
 review = "I'm a brand new business owner and the site came out exactly how I wanted! I've already received multiple sales and received positive feedback about my site. I'm so happy thank you!"
 short_description = ""
